@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "partName": "Seal Block PG-1456",
+    "partNumber": "947804186503",
+    "specification": "PRECISION",
+    "inStock": "3116 Nos",
+    "status": "In Stock",
+    "minStock": "239 Nos",
+    "maxStock": "9398 Nos"
+  },
+  {
+    "id": 2,
+    "partName": "Bearing Plate PG-6802",
+    "partNumber": "400844729412",
+    "specification": "CAST IRON",
+    "inStock": "3321 Nos",
+    "status": "Low Stock",
+    "minStock": "247 Nos",
+    "maxStock": "4090 Nos"
+  },
+  {
+    "id": 3,
+    "partName": "Coupling Housing PG-5547",
+    "partNumber": "486529391553",
+    "specification": "MECHANICAL",
+    "inStock": "289 Nos",
+    "status": "In Stock",
+    "minStock": "275 Nos",
+    "maxStock": "6626 Nos"
+  },
+  {
+    "id": 4,
+    "partName": "Valve Plate PG-3904",
+    "partNumber": "805025998021",
+    "specification": "MECHANICAL",
+    "inStock": "2786 Nos",
+    "status": "In Stock",
+    "minStock": "133 Nos",
+    "maxStock": "5327 Nos"
+  },
+  {
+    "id": 5,
+    "partName": "Manifold Kit PG-5070",
+    "partNumber": "969880662338",
+    "specification": "ALUMINUM",
+    "inStock": "4562 Nos",
+    "status": "In Stock",
+    "minStock": "157 Nos",
+    "maxStock": "4747 Nos"
+  },
+  {
+    "id": 6,
+    "partName": "Seal Kit PG-7716",
+    "partNumber": "364269160086",
+    "specification": "RUBBER",
+    "inStock": "3405 Nos",
+    "status": "Low Stock",
+    "minStock": "62 Nos",
+    "maxStock": "3436 Nos"
+  },
+  {
+    "id": 7,
+    "partName": "Gear Element PG-4961",
+    "partNumber": "334246898264",
+    "specification": "STRUCTURAL",
+    "inStock": "3094 Nos",
+    "status": "In Stock",
+    "minStock": "222 Nos",
+    "maxStock": "6060 Nos"
+  },
+  {
+    "id": 8,
+    "partName": "Filter Block PG-4782",
+    "partNumber": "879117667926",
+    "specification": "HYDRAULIC",
+    "inStock": "4360 Nos",
+    "status": "In Stock",
+    "minStock": "271 Nos",
+    "maxStock": "6054 Nos"
+  },
+  {
+    "id": 9,
+    "partName": "Filter Housing PG-4562",
+    "partNumber": "354838939409",
+    "specification": "FIBERGLASS",
+    "inStock": "5197 Nos",
+    "status": "In Stock",
+    "minStock": "261 Nos",
+    "maxStock": "9258 Nos"
+  },
+  {
+    "id": 10,
+    "partName": "Bracket Housing PG-5451",
+    "partNumber": "842354909131",
+    "specification": "ALUMINUM",
+    "inStock": "252 Nos",
+    "status": "In Stock",
+    "minStock": "158 Nos",
+    "maxStock": "2602 Nos"
+  },
+  {
+    "id": 11,
+    "partName": "Clamp Housing PG-8157",
+    "partNumber": "692388208139",
+    "specification": "CAST IRON",
+    "inStock": "10025 Nos",
+    "status": "In Stock",
+    "minStock": "281 Nos",
+    "maxStock": "10102 Nos"
+  },
+  {
+    "id": 12,
+    "partName": "Gear Housing PG-4569",
+    "partNumber": "888742140375",
+    "specification": "STEEL",
+    "inStock": "3834 Nos",
+    "status": "In Stock",
+    "minStock": "115 Nos",
+    "maxStock": "9199 Nos"
+  },
+  {
+    "id": 13,
+    "partName": "Bracket Plate PG-7931",
+    "partNumber": "547894140594",
+    "specification": "PLASTIC",
+    "inStock": "631 Nos",
+    "status": "In Stock",
+    "minStock": "250 Nos",
+    "maxStock": "1159 Nos"
+  },
+  {
+    "id": 14,
+    "partName": "Bearing Block PG-3712",
+    "partNumber": "789911585225",
+    "specification": "MECHANICAL",
+    "inStock": "4324 Nos",
+    "status": "Min Stock",
+    "minStock": "211 Nos",
+    "maxStock": "9652 Nos"
+  },
+  {
+    "id": 15,
+    "partName": "Seal Kit PG-1513",
+    "partNumber": "972120338573",
+    "specification": "PLASTIC",
+    "inStock": "1835 Nos",
+    "status": "In Stock",
+    "minStock": "174 Nos",
+    "maxStock": "2797 Nos"
+  },
+  {
+    "id": 16,
+    "partName": "Coupling Element PG-5916",
+    "partNumber": "116841210502",
+    "specification": "ELECTRONIC",
+    "inStock": "953 Nos",
+    "status": "In Stock",
+    "minStock": "245 Nos",
+    "maxStock": "3218 Nos"
+  },
+  {
+    "id": 17,
+    "partName": "Manifold Housing PG-7295",
+    "partNumber": "944686819338",
+    "specification": "MECHANICAL",
+    "inStock": "264 Nos",
+    "status": "Low Stock",
+    "minStock": "280 Nos",
+    "maxStock": "8227 Nos"
+  },
+  {
+    "id": 18,
+    "partName": "Rotor Assembly PG-5711",
+    "partNumber": "911905697959",
+    "specification": "ELECTRONIC",
+    "inStock": "655 Nos",
+    "status": "Min Stock",
+    "minStock": "296 Nos",
+    "maxStock": "2862 Nos"
+  },
+  {
+    "id": 19,
+    "partName": "Valve Housing PG-5646",
+    "partNumber": "242985799711",
+    "specification": "RUBBER",
+    "inStock": "2194 Nos",
+    "status": "In Stock",
+    "minStock": "193 Nos",
+    "maxStock": "3542 Nos"
+  },
+  {
+    "id": 20,
+    "partName": "Bracket Housing PG-9282",
+    "partNumber": "645939889419",
+    "specification": "RUBBER",
+    "inStock": "2984 Nos",
+    "status": "In Stock",
+    "minStock": "130 Nos",
+    "maxStock": "3544 Nos"
+  },
+  {
+    "id": 21,
+    "partName": "Gear Kit PG-8434",
+    "partNumber": "274008587661",
+    "specification": "ELECTRONIC",
+    "inStock": "369 Nos",
+    "status": "In Stock",
+    "minStock": "175 Nos",
+    "maxStock": "1174 Nos"
+  },
+  {
+    "id": 22,
+    "partName": "Coupling Kit PG-3197",
+    "partNumber": "857952737684",
+    "specification": "ALUMINUM",
+    "inStock": "53 Nos",
+    "status": "Low Stock",
+    "minStock": "239 Nos",
+    "maxStock": "1445 Nos"
+  },
+  {
+    "id": 23,
+    "partName": "Pump Plate PG-6082",
+    "partNumber": "303410098658",
+    "specification": "REPLACEABLE",
+    "inStock": "7098 Nos",
+    "status": "Min Stock",
+    "minStock": "205 Nos",
+    "maxStock": "8677 Nos"
+  },
+  {
+    "id": 24,
+    "partName": "Coupling Kit PG-4889",
+    "partNumber": "827032183601",
+    "specification": "HYDRAULIC",
+    "inStock": "7888 Nos",
+    "status": "In Stock",
+    "minStock": "267 Nos",
+    "maxStock": "8130 Nos"
+  },
+  {
+    "id": 25,
+    "partName": "Pump Plate PG-3778",
+    "partNumber": "642172285531",
+    "specification": "REPLACEABLE",
+    "inStock": "4261 Nos",
+    "status": "In Stock",
+    "minStock": "245 Nos",
+    "maxStock": "7685 Nos"
+  },
+  {
+    "id": 26,
+    "partName": "Bracket Kit PG-5067",
+    "partNumber": "414701889831",
+    "specification": "REPLACEABLE",
+    "inStock": "1650 Nos",
+    "status": "In Stock",
+    "minStock": "255 Nos",
+    "maxStock": "8453 Nos"
+  },
+  {
+    "id": 27,
+    "partName": "Clamp Plate PG-8436",
+    "partNumber": "459769021031",
+    "specification": "PLASTIC",
+    "inStock": "2425 Nos",
+    "status": "In Stock",
+    "minStock": "182 Nos",
+    "maxStock": "9398 Nos"
+  },
+  {
+    "id": 28,
+    "partName": "Bracket Housing PG-9079",
+    "partNumber": "726736704968",
+    "specification": "CAST IRON",
+    "inStock": "465 Nos",
+    "status": "In Stock",
+    "minStock": "103 Nos",
+    "maxStock": "1390 Nos"
+  },
+  {
+    "id": 29,
+    "partName": "Coupling Kit PG-6982",
+    "partNumber": "758978399847",
+    "specification": "PRECISION",
+    "inStock": "310 Nos",
+    "status": "In Stock",
+    "minStock": "203 Nos",
+    "maxStock": "4160 Nos"
+  },
+  {
+    "id": 30,
+    "partName": "Coupling Element PG-4279",
+    "partNumber": "349870273314",
+    "specification": "FIBERGLASS",
+    "inStock": "811 Nos",
+    "status": "Low Stock",
+    "minStock": "236 Nos",
+    "maxStock": "8499 Nos"
+  },
+  {
+    "id": 31,
+    "partName": "Coupling Plate PG-5792",
+    "partNumber": "885458940011",
+    "specification": "PRECISION",
+    "inStock": "673 Nos",
+    "status": "In Stock",
+    "minStock": "51 Nos",
+    "maxStock": "1749 Nos"
+  },
+  {
+    "id": 32,
+    "partName": "Clamp Element PG-8179",
+    "partNumber": "480695461016",
+    "specification": "STEEL",
+    "inStock": "6000 Nos",
+    "status": "In Stock",
+    "minStock": "99 Nos",
+    "maxStock": "6518 Nos"
+  },
+  {
+    "id": 33,
+    "partName": "Rotor Element PG-6225",
+    "partNumber": "673509197789",
+    "specification": "RUBBER",
+    "inStock": "4502 Nos",
+    "status": "In Stock",
+    "minStock": "69 Nos",
+    "maxStock": "9445 Nos"
+  },
+  {
+    "id": 34,
+    "partName": "Manifold Plate PG-2864",
+    "partNumber": "158829451428",
+    "specification": "STRUCTURAL",
+    "inStock": "1989 Nos",
+    "status": "Low Stock",
+    "minStock": "263 Nos",
+    "maxStock": "6388 Nos"
+  },
+  {
+    "id": 35,
+    "partName": "Bearing Plate PG-2654",
+    "partNumber": "604458880389",
+    "specification": "HYDRAULIC",
+    "inStock": "1974 Nos",
+    "status": "Low Stock",
+    "minStock": "179 Nos",
+    "maxStock": "4865 Nos"
+  },
+  {
+    "id": 36,
+    "partName": "Sensor Kit PG-6570",
+    "partNumber": "732222016153",
+    "specification": "STEEL",
+    "inStock": "1836 Nos",
+    "status": "Low Stock",
+    "minStock": "163 Nos",
+    "maxStock": "3354 Nos"
+  },
+  {
+    "id": 37,
+    "partName": "Filter Block PG-5602",
+    "partNumber": "354299225462",
+    "specification": "FIBERGLASS",
+    "inStock": "109 Nos",
+    "status": "In Stock",
+    "minStock": "92 Nos",
+    "maxStock": "8908 Nos"
+  },
+  {
+    "id": 38,
+    "partName": "Rotor Plate PG-9316",
+    "partNumber": "887024398524",
+    "specification": "PRECISION",
+    "inStock": "6259 Nos",
+    "status": "In Stock",
+    "minStock": "300 Nos",
+    "maxStock": "7163 Nos"
+  },
+  {
+    "id": 39,
+    "partName": "Seal Element PG-5153",
+    "partNumber": "244372140652",
+    "specification": "PLASTIC",
+    "inStock": "4945 Nos",
+    "status": "Low Stock",
+    "minStock": "283 Nos",
+    "maxStock": "8085 Nos"
+  },
+  {
+    "id": 40,
+    "partName": "Pump Element PG-2501",
+    "partNumber": "437743832175",
+    "specification": "PLASTIC",
+    "inStock": "2094 Nos",
+    "status": "In Stock",
+    "minStock": "201 Nos",
+    "maxStock": "2626 Nos"
+  },
+  {
+    "id": 41,
+    "partName": "Sensor Kit PG-3072",
+    "partNumber": "750189998008",
+    "specification": "CAST IRON",
+    "inStock": "5831 Nos",
+    "status": "In Stock",
+    "minStock": "95 Nos",
+    "maxStock": "8050 Nos"
+  },
+  {
+    "id": 42,
+    "partName": "Filter Block PG-5881",
+    "partNumber": "875045063856",
+    "specification": "HYDRAULIC",
+    "inStock": "4270 Nos",
+    "status": "In Stock",
+    "minStock": "103 Nos",
+    "maxStock": "6623 Nos"
+  },
+  {
+    "id": 43,
+    "partName": "Gear Assembly PG-2127",
+    "partNumber": "876394272431",
+    "specification": "REPLACEABLE",
+    "inStock": "4768 Nos",
+    "status": "In Stock",
+    "minStock": "254 Nos",
+    "maxStock": "9565 Nos"
+  },
+  {
+    "id": 44,
+    "partName": "Rotor Housing PG-3029",
+    "partNumber": "952269664662",
+    "specification": "PRECISION",
+    "inStock": "992 Nos",
+    "status": "In Stock",
+    "minStock": "274 Nos",
+    "maxStock": "1621 Nos"
+  },
+  {
+    "id": 45,
+    "partName": "Clamp Element PG-9519",
+    "partNumber": "653373281734",
+    "specification": "REPLACEABLE",
+    "inStock": "621 Nos",
+    "status": "In Stock",
+    "minStock": "104 Nos",
+    "maxStock": "1440 Nos"
+  },
+  {
+    "id": 46,
+    "partName": "Bearing Element PG-7536",
+    "partNumber": "184119734880",
+    "specification": "FIBERGLASS",
+    "inStock": "92 Nos",
+    "status": "Low Stock",
+    "minStock": "234 Nos",
+    "maxStock": "7042 Nos"
+  },
+  {
+    "id": 47,
+    "partName": "Manifold Kit PG-9547",
+    "partNumber": "842579090666",
+    "specification": "HYDRAULIC",
+    "inStock": "4765 Nos",
+    "status": "In Stock",
+    "minStock": "240 Nos",
+    "maxStock": "5807 Nos"
+  },
+  {
+    "id": 48,
+    "partName": "Manifold Kit PG-8670",
+    "partNumber": "765804393771",
+    "specification": "STEEL",
+    "inStock": "8501 Nos",
+    "status": "In Stock",
+    "minStock": "73 Nos",
+    "maxStock": "9224 Nos"
+  },
+  {
+    "id": 49,
+    "partName": "Manifold Kit PG-1710",
+    "partNumber": "491862390477",
+    "specification": "CAST IRON",
+    "inStock": "1320 Nos",
+    "status": "In Stock",
+    "minStock": "69 Nos",
+    "maxStock": "5284 Nos"
+  },
+  {
+    "id": 50,
+    "partName": "Bracket Element PG-7259",
+    "partNumber": "326084865781",
+    "specification": "ELECTRONIC",
+    "inStock": "5214 Nos",
+    "status": "In Stock",
+    "minStock": "160 Nos",
+    "maxStock": "7698 Nos"
+  },
+  {
+    "id": 51,
+    "partName": "Rotor Block PG-7646",
+    "partNumber": "840384160979",
+    "specification": "CAST IRON",
+    "inStock": "5359 Nos",
+    "status": "In Stock",
+    "minStock": "95 Nos",
+    "maxStock": "7192 Nos"
+  },
+  {
+    "id": 52,
+    "partName": "Gear Element PG-7856",
+    "partNumber": "353485669593",
+    "specification": "PRECISION",
+    "inStock": "1101 Nos",
+    "status": "In Stock",
+    "minStock": "181 Nos",
+    "maxStock": "4689 Nos"
+  },
+  {
+    "id": 53,
+    "partName": "Sensor Kit PG-6770",
+    "partNumber": "906136703165",
+    "specification": "REPLACEABLE",
+    "inStock": "4624 Nos",
+    "status": "In Stock",
+    "minStock": "166 Nos",
+    "maxStock": "4797 Nos"
+  },
+  {
+    "id": 54,
+    "partName": "Bearing Kit PG-1911",
+    "partNumber": "890893138577",
+    "specification": "STRUCTURAL",
+    "inStock": "5602 Nos",
+    "status": "In Stock",
+    "minStock": "232 Nos",
+    "maxStock": "6529 Nos"
+  },
+  {
+    "id": 55,
+    "partName": "Valve Block PG-4661",
+    "partNumber": "941384309868",
+    "specification": "CAST IRON",
+    "inStock": "2834 Nos",
+    "status": "In Stock",
+    "minStock": "101 Nos",
+    "maxStock": "8512 Nos"
+  },
+  {
+    "id": 56,
+    "partName": "Valve Plate PG-9728",
+    "partNumber": "751722997932",
+    "specification": "ELECTRONIC",
+    "inStock": "3324 Nos",
+    "status": "In Stock",
+    "minStock": "254 Nos",
+    "maxStock": "5141 Nos"
+  },
+  {
+    "id": 57,
+    "partName": "Rotor Kit PG-9487",
+    "partNumber": "481916787169",
+    "specification": "ALUMINUM",
+    "inStock": "699 Nos",
+    "status": "In Stock",
+    "minStock": "61 Nos",
+    "maxStock": "1577 Nos"
+  },
+  {
+    "id": 58,
+    "partName": "Gear Plate PG-3842",
+    "partNumber": "629600670196",
+    "specification": "STEEL",
+    "inStock": "1060 Nos",
+    "status": "In Stock",
+    "minStock": "87 Nos",
+    "maxStock": "1505 Nos"
+  },
+  {
+    "id": 59,
+    "partName": "Bracket Assembly PG-6510",
+    "partNumber": "243008122016",
+    "specification": "PRECISION",
+    "inStock": "4820 Nos",
+    "status": "In Stock",
+    "minStock": "192 Nos",
+    "maxStock": "7936 Nos"
+  },
+  {
+    "id": 60,
+    "partName": "Bearing Plate PG-5616",
+    "partNumber": "624814746407",
+    "specification": "HYDRAULIC",
+    "inStock": "2908 Nos",
+    "status": "In Stock",
+    "minStock": "126 Nos",
+    "maxStock": "3180 Nos"
+  },
+  {
+    "id": 61,
+    "partName": "Sensor Kit PG-5325",
+    "partNumber": "266307154056",
+    "specification": "FIBERGLASS",
+    "inStock": "1745 Nos",
+    "status": "In Stock",
+    "minStock": "267 Nos",
+    "maxStock": "2733 Nos"
+  },
+  {
+    "id": 62,
+    "partName": "Valve Housing PG-6602",
+    "partNumber": "958258992305",
+    "specification": "ALUMINUM",
+    "inStock": "3745 Nos",
+    "status": "In Stock",
+    "minStock": "113 Nos",
+    "maxStock": "4583 Nos"
+  },
+  {
+    "id": 63,
+    "partName": "Sensor Housing PG-5871",
+    "partNumber": "566976029173",
+    "specification": "STEEL",
+    "inStock": "726 Nos",
+    "status": "In Stock",
+    "minStock": "203 Nos",
+    "maxStock": "1003 Nos"
+  },
+  {
+    "id": 64,
+    "partName": "Bracket Block PG-4901",
+    "partNumber": "576386454531",
+    "specification": "ELECTRONIC",
+    "inStock": "7679 Nos",
+    "status": "In Stock",
+    "minStock": "132 Nos",
+    "maxStock": "7871 Nos"
+  },
+  {
+    "id": 65,
+    "partName": "Rotor Plate PG-4609",
+    "partNumber": "710670306982",
+    "specification": "FIBERGLASS",
+    "inStock": "2116 Nos",
+    "status": "In Stock",
+    "minStock": "285 Nos",
+    "maxStock": "9251 Nos"
+  },
+  {
+    "id": 66,
+    "partName": "Coupling Housing PG-3139",
+    "partNumber": "409843762815",
+    "specification": "ALUMINUM",
+    "inStock": "4016 Nos",
+    "status": "In Stock",
+    "minStock": "70 Nos",
+    "maxStock": "5246 Nos"
+  },
+  {
+    "id": 67,
+    "partName": "Coupling Block PG-7924",
+    "partNumber": "316612224478",
+    "specification": "PRECISION",
+    "inStock": "824 Nos",
+    "status": "In Stock",
+    "minStock": "64 Nos",
+    "maxStock": "2529 Nos"
+  },
+  {
+    "id": 68,
+    "partName": "Manifold Housing PG-2757",
+    "partNumber": "397430065102",
+    "specification": "CAST IRON",
+    "inStock": "3570 Nos",
+    "status": "In Stock",
+    "minStock": "253 Nos",
+    "maxStock": "7224 Nos"
+  },
+  {
+    "id": 69,
+    "partName": "Valve Housing PG-6726",
+    "partNumber": "732779385787",
+    "specification": "FIBERGLASS",
+    "inStock": "8353 Nos",
+    "status": "In Stock",
+    "minStock": "51 Nos",
+    "maxStock": "9639 Nos"
+  },
+  {
+    "id": 70,
+    "partName": "Filter Kit PG-5991",
+    "partNumber": "324045984271",
+    "specification": "MECHANICAL",
+    "inStock": "2006 Nos",
+    "status": "In Stock",
+    "minStock": "53 Nos",
+    "maxStock": "6937 Nos"
+  },
+  {
+    "id": 71,
+    "partName": "Seal Plate PG-5314",
+    "partNumber": "330336243419",
+    "specification": "REPLACEABLE",
+    "inStock": "706 Nos",
+    "status": "In Stock",
+    "minStock": "281 Nos",
+    "maxStock": "9483 Nos"
+  },
+  {
+    "id": 72,
+    "partName": "Bearing Block PG-6621",
+    "partNumber": "880086008993",
+    "specification": "STEEL",
+    "inStock": "1229 Nos",
+    "status": "In Stock",
+    "minStock": "291 Nos",
+    "maxStock": "5687 Nos"
+  },
+  {
+    "id": 73,
+    "partName": "Coupling Assembly PG-7206",
+    "partNumber": "354175454637",
+    "specification": "ALUMINUM",
+    "inStock": "4206 Nos",
+    "status": "In Stock",
+    "minStock": "296 Nos",
+    "maxStock": "4753 Nos"
+  },
+  {
+    "id": 74,
+    "partName": "Valve Housing PG-9123",
+    "partNumber": "979001015563",
+    "specification": "FIBERGLASS",
+    "inStock": "5032 Nos",
+    "status": "In Stock",
+    "minStock": "161 Nos",
+    "maxStock": "5583 Nos"
+  },
+  {
+    "id": 75,
+    "partName": "Clamp Element PG-4035",
+    "partNumber": "925493060662",
+    "specification": "ELECTRONIC",
+    "inStock": "840 Nos",
+    "status": "In Stock",
+    "minStock": "233 Nos",
+    "maxStock": "9688 Nos"
+  },
+  {
+    "id": 76,
+    "partName": "Clamp Block PG-3923",
+    "partNumber": "320755986406",
+    "specification": "HYDRAULIC",
+    "inStock": "259 Nos",
+    "status": "In Stock",
+    "minStock": "141 Nos",
+    "maxStock": "7291 Nos"
+  },
+  {
+    "id": 77,
+    "partName": "Sensor Element PG-8621",
+    "partNumber": "466098514873",
+    "specification": "RUBBER",
+    "inStock": "3185 Nos",
+    "status": "In Stock",
+    "minStock": "53 Nos",
+    "maxStock": "9135 Nos"
+  },
+  {
+    "id": 78,
+    "partName": "Coupling Assembly PG-2907",
+    "partNumber": "655069112646",
+    "specification": "STEEL",
+    "inStock": "1641 Nos",
+    "status": "In Stock",
+    "minStock": "193 Nos",
+    "maxStock": "2090 Nos"
+  },
+  {
+    "id": 79,
+    "partName": "Pump Block PG-6535",
+    "partNumber": "111773980932",
+    "specification": "RUBBER",
+    "inStock": "1068 Nos",
+    "status": "In Stock",
+    "minStock": "104 Nos",
+    "maxStock": "5064 Nos"
+  },
+  {
+    "id": 80,
+    "partName": "Manifold Kit PG-2701",
+    "partNumber": "610110169323",
+    "specification": "MECHANICAL",
+    "inStock": "1503 Nos",
+    "status": "In Stock",
+    "minStock": "58 Nos",
+    "maxStock": "4747 Nos"
+  },
+  {
+    "id": 81,
+    "partName": "Pump Block PG-5311",
+    "partNumber": "433998472883",
+    "specification": "CAST IRON",
+    "inStock": "91 Nos",
+    "status": "Low Stock",
+    "minStock": "230 Nos",
+    "maxStock": "1730 Nos"
+  },
+  {
+    "id": 82,
+    "partName": "Pump Kit PG-2689",
+    "partNumber": "353717544927",
+    "specification": "REPLACEABLE",
+    "inStock": "8309 Nos",
+    "status": "In Stock",
+    "minStock": "266 Nos",
+    "maxStock": "9153 Nos"
+  },
+  {
+    "id": 83,
+    "partName": "Gear Plate PG-4772",
+    "partNumber": "183017344610",
+    "specification": "PLASTIC",
+    "inStock": "6173 Nos",
+    "status": "In Stock",
+    "minStock": "213 Nos",
+    "maxStock": "8984 Nos"
+  },
+  {
+    "id": 84,
+    "partName": "Coupling Block PG-3150",
+    "partNumber": "408337090042",
+    "specification": "PRECISION",
+    "inStock": "4264 Nos",
+    "status": "In Stock",
+    "minStock": "269 Nos",
+    "maxStock": "8162 Nos"
+  },
+  {
+    "id": 85,
+    "partName": "Gear Assembly PG-1318",
+    "partNumber": "939695792195",
+    "specification": "STEEL",
+    "inStock": "34 Nos",
+    "status": "Low Stock",
+    "minStock": "50 Nos",
+    "maxStock": "3131 Nos"
+  },
+  {
+    "id": 86,
+    "partName": "Valve Block PG-2194",
+    "partNumber": "632797571658",
+    "specification": "REPLACEABLE",
+    "inStock": "3827 Nos",
+    "status": "In Stock",
+    "minStock": "79 Nos",
+    "maxStock": "4123 Nos"
+  },
+  {
+    "id": 87,
+    "partName": "Valve Assembly PG-7629",
+    "partNumber": "503806701248",
+    "specification": "ALUMINUM",
+    "inStock": "255 Nos",
+    "status": "In Stock",
+    "minStock": "98 Nos",
+    "maxStock": "1667 Nos"
+  },
+  {
+    "id": 88,
+    "partName": "Valve Assembly PG-2020",
+    "partNumber": "484057090476",
+    "specification": "HYDRAULIC",
+    "inStock": "2268 Nos",
+    "status": "In Stock",
+    "minStock": "224 Nos",
+    "maxStock": "8739 Nos"
+  },
+  {
+    "id": 89,
+    "partName": "Manifold Housing PG-9449",
+    "partNumber": "272762711486",
+    "specification": "STEEL",
+    "inStock": "332 Nos",
+    "status": "In Stock",
+    "minStock": "174 Nos",
+    "maxStock": "830 Nos"
+  },
+  {
+    "id": 90,
+    "partName": "Filter Element PG-2110",
+    "partNumber": "823165236419",
+    "specification": "REPLACEABLE",
+    "inStock": "199 Nos",
+    "status": "In Stock",
+    "minStock": "88 Nos",
+    "maxStock": "2543 Nos"
+  },
+  {
+    "id": 91,
+    "partName": "Bearing Block PG-3149",
+    "partNumber": "514161554337",
+    "specification": "FIBERGLASS",
+    "inStock": "1435 Nos",
+    "status": "In Stock",
+    "minStock": "74 Nos",
+    "maxStock": "1712 Nos"
+  },
+  {
+    "id": 92,
+    "partName": "Valve Plate PG-5721",
+    "partNumber": "323768043633",
+    "specification": "STRUCTURAL",
+    "inStock": "220 Nos",
+    "status": "Low Stock",
+    "minStock": "298 Nos",
+    "maxStock": "3658 Nos"
+  },
+  {
+    "id": 93,
+    "partName": "Sensor Plate PG-7479",
+    "partNumber": "381030100938",
+    "specification": "ELECTRONIC",
+    "inStock": "3233 Nos",
+    "status": "In Stock",
+    "minStock": "151 Nos",
+    "maxStock": "5736 Nos"
+  },
+  {
+    "id": 94,
+    "partName": "Filter Element PG-3799",
+    "partNumber": "629490306973",
+    "specification": "ALUMINUM",
+    "inStock": "1441 Nos",
+    "status": "In Stock",
+    "minStock": "271 Nos",
+    "maxStock": "5156 Nos"
+  },
+  {
+    "id": 95,
+    "partName": "Pump Housing PG-1896",
+    "partNumber": "266686709670",
+    "specification": "CAST IRON",
+    "inStock": "38 Nos",
+    "status": "Low Stock",
+    "minStock": "266 Nos",
+    "maxStock": "2100 Nos"
+  },
+  {
+    "id": 96,
+    "partName": "Rotor Kit PG-7382",
+    "partNumber": "372008338571",
+    "specification": "ALUMINUM",
+    "inStock": "2018 Nos",
+    "status": "In Stock",
+    "minStock": "175 Nos",
+    "maxStock": "9146 Nos"
+  },
+  {
+    "id": 97,
+    "partName": "Coupling Assembly PG-4313",
+    "partNumber": "700130640762",
+    "specification": "STRUCTURAL",
+    "inStock": "3376 Nos",
+    "status": "In Stock",
+    "minStock": "219 Nos",
+    "maxStock": "4662 Nos"
+  },
+  {
+    "id": 98,
+    "partName": "Valve Plate PG-4601",
+    "partNumber": "254238208174",
+    "specification": "STEEL",
+    "inStock": "4505 Nos",
+    "status": "In Stock",
+    "minStock": "298 Nos",
+    "maxStock": "9701 Nos"
+  },
+  {
+    "id": 99,
+    "partName": "Bracket Block PG-6139",
+    "partNumber": "368028260208",
+    "specification": "CAST IRON",
+    "inStock": "3783 Nos",
+    "status": "In Stock",
+    "minStock": "160 Nos",
+    "maxStock": "6115 Nos"
+  },
+  {
+    "id": 100,
+    "partName": "Sensor Assembly PG-5963",
+    "partNumber": "838034802195",
+    "specification": "FIBERGLASS",
+    "inStock": "2154 Nos",
+    "status": "In Stock",
+    "minStock": "220 Nos",
+    "maxStock": "4341 Nos"
+  }
+]

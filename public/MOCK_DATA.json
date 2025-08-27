@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "partName": "Jenkins, Rosales and Salazar PG-4028 Jenkins, Rosales and Salazar PG-4028",
+    "partNumber": "4062214774901957",
+    "specification": "CAMPAIGN",
+    "inStock": "702 Nos",
+    "status": "In Stock",
+    "minStock": "1170 Nos",
+    "maxStock": "16863 Nos"
+  },
+  {
+    "id": 2,
+    "partName": "Miller Ltd PG-7482",
+    "partNumber": "6011148113465745",
+    "specification": "NAME",
+    "inStock": "4531 Nos",
+    "status": "In Stock",
+    "minStock": "1790 Nos",
+    "maxStock": "12656 Nos"
+  },
+  {
+    "id": 3,
+    "partName": "Khan, Lawson and Jackson PG-7815",
+    "partNumber": "4492770655592397",
+    "specification": "QUITE",
+    "inStock": "4598 Nos",
+    "status": "Low Stock",
+    "minStock": "1859 Nos",
+    "maxStock": "19182 Nos"
+  },
+  {
+    "id": 4,
+    "partName": "Joseph-Dunlap PG-8379",
+    "partNumber": "376374556919533",
+    "specification": "ALONE",
+    "inStock": "1060 Nos",
+    "status": "Low Stock",
+    "minStock": "700 Nos",
+    "maxStock": "17769 Nos"
+  },
+  {
+    "id": 5,
+    "partName": "Thomas PLC PG-7264",
+    "partNumber": "3510652483313164",
+    "specification": "OTHER",
+    "inStock": "2861 Nos",
+    "status": "In Stock",
+    "minStock": "1631 Nos",
+    "maxStock": "8948 Nos"
+  },
+  {
+    "id": 6,
+    "partName": "Contreras-Johnson PG-1622",
+    "partNumber": "4116540252382369753",
+    "specification": "BOX",
+    "inStock": "4536 Nos",
+    "status": "In Stock",
+    "minStock": "1233 Nos",
+    "maxStock": "9902 Nos"
+  },
+  {
+    "id": 7,
+    "partName": "Chambers, White and Whitaker PG-9269",
+    "partNumber": "4917263546672443",
+    "specification": "KIND",
+    "inStock": "773 Nos",
+    "status": "In Stock",
+    "minStock": "1115 Nos",
+    "maxStock": "9170 Nos"
+  },
+  {
+    "id": 8,
+    "partName": "Brewer, Beck and Bridges PG-4898",
+    "partNumber": "4629853310360800",
+    "specification": "ONCE",
+    "inStock": "1321 Nos",
+    "status": "In Stock",
+    "minStock": "857 Nos",
+    "maxStock": "9997 Nos"
+  },
+  {
+    "id": 9,
+    "partName": "Johnson-Ashley PG-7986",
+    "partNumber": "3557018019819781",
+    "specification": "TIME",
+    "inStock": "849 Nos",
+    "status": "In Stock",
+    "minStock": "1367 Nos",
+    "maxStock": "7458 Nos"
+  },
+  {
+    "id": 10,
+    "partName": "Thompson, Hill and Vasquez PG-2537",
+    "partNumber": "4803659056318565",
+    "specification": "RELIGIOUS",
+    "inStock": "4239 Nos",
+    "status": "Low Stock",
+    "minStock": "811 Nos",
+    "maxStock": "9182 Nos"
+  },
+  {
+    "id": 11,
+    "partName": "Perez, Johnson and Brown PG-2670",
+    "partNumber": "5576159596776127",
+    "specification": "WIDE",
+    "inStock": "2946 Nos",
+    "status": "In Stock",
+    "minStock": "532 Nos",
+    "maxStock": "18841 Nos"
+  },
+  {
+    "id": 12,
+    "partName": "Allen, Simmons and Taylor PG-3317",
+    "partNumber": "3564479452027889",
+    "specification": "PLAYER",
+    "inStock": "2033 Nos",
+    "status": "Min Stock",
+    "minStock": "1985 Nos",
+    "maxStock": "7165 Nos"
+  },
+  {
+    "id": 13,
+    "partName": "Jackson and Sons PG-5998",
+    "partNumber": "180021080381393",
+    "specification": "AVAILABLE",
+    "inStock": "125 Nos",
+    "status": "Low Stock",
+    "minStock": "589 Nos",
+    "maxStock": "9075 Nos"
+  },
+  {
+    "id": 14,
+    "partName": "Lee PLC PG-5900",
+    "partNumber": "4492106959047",
+    "specification": "SECOND",
+    "inStock": "2966 Nos",
+    "status": "Min Stock",
+    "minStock": "1239 Nos",
+    "maxStock": "17185 Nos"
+  },
+  {
+    "id": 15,
+    "partName": "Page LLC PG-1794",
+    "partNumber": "6541122183579494",
+    "specification": "HAPPY",
+    "inStock": "3856 Nos",
+    "status": "Min Stock",
+    "minStock": "1158 Nos",
+    "maxStock": "6572 Nos"
+  },
+  {
+    "id": 16,
+    "partName": "King, Donovan and Brock PG-0954",
+    "partNumber": "180098720267794",
+    "specification": "NO",
+    "inStock": "724 Nos",
+    "status": "Min Stock",
+    "minStock": "1910 Nos",
+    "maxStock": "13336 Nos"
+  },
+  {
+    "id": 17,
+    "partName": "Taylor-Cruz PG-6411",
+    "partNumber": "4826458120304",
+    "specification": "SO",
+    "inStock": "977 Nos",
+    "status": "Low Stock",
+    "minStock": "1315 Nos",
+    "maxStock": "13964 Nos"
+  },
+  {
+    "id": 18,
+    "partName": "Hicks LLC PG-5754",
+    "partNumber": "3581739839817875",
+    "specification": "GUESS",
+    "inStock": "2717 Nos",
+    "status": "In Stock",
+    "minStock": "1015 Nos",
+    "maxStock": "17387 Nos"
+  },
+  {
+    "id": 19,
+    "partName": "Johnson Inc PG-4687",
+    "partNumber": "4115459429076765",
+    "specification": "RICH",
+    "inStock": "1201 Nos",
+    "status": "Low Stock",
+    "minStock": "1308 Nos",
+    "maxStock": "11733 Nos"
+  },
+  {
+    "id": 20,
+    "partName": "Romero, Salazar and Griffin PG-4190",
+    "partNumber": "4221187902306752",
+    "specification": "BELIEVE",
+    "inStock": "141 Nos",
+    "status": "Min Stock",
+    "minStock": "1411 Nos",
+    "maxStock": "8722 Nos"
+  },
+  {
+    "id": 21,
+    "partName": "Morris, Gordon and Goodman PG-3975",
+    "partNumber": "4770405006168",
+    "specification": "LAND",
+    "inStock": "4558 Nos",
+    "status": "Low Stock",
+    "minStock": "1815 Nos",
+    "maxStock": "12541 Nos"
+  },
+  {
+    "id": 22,
+    "partName": "Hamilton, Martinez and Barry PG-6726",
+    "partNumber": "4863912220443026",
+    "specification": "DRUG",
+    "inStock": "4607 Nos",
+    "status": "Low Stock",
+    "minStock": "897 Nos",
+    "maxStock": "17798 Nos"
+  },
+  {
+    "id": 23,
+    "partName": "Hill-Smith PG-9220",
+    "partNumber": "4932478952946815",
+    "specification": "TAX",
+    "inStock": "3788 Nos",
+    "status": "Min Stock",
+    "minStock": "1362 Nos",
+    "maxStock": "12192 Nos"
+  },
+  {
+    "id": 24,
+    "partName": "Morales-Bryant PG-6167",
+    "partNumber": "3509977487804311",
+    "specification": "CALL",
+    "inStock": "3193 Nos",
+    "status": "Low Stock",
+    "minStock": "1990 Nos",
+    "maxStock": "18676 Nos"
+  },
+  {
+    "id": 25,
+    "partName": "Johnson, Bryant and Anderson PG-3499",
+    "partNumber": "5214268337180305",
+    "specification": "WE",
+    "inStock": "4865 Nos",
+    "status": "In Stock",
+    "minStock": "1879 Nos",
+    "maxStock": "9555 Nos"
+  },
+  {
+    "id": 26,
+    "partName": "Taylor Inc PG-0854",
+    "partNumber": "180086005967105",
+    "specification": "ENTER",
+    "inStock": "2310 Nos",
+    "status": "In Stock",
+    "minStock": "1382 Nos",
+    "maxStock": "14818 Nos"
+  },
+  {
+    "id": 27,
+    "partName": "Neal, Rodriguez and Cook PG-9933",
+    "partNumber": "4746102933253457",
+    "specification": "ACCORDING",
+    "inStock": "2843 Nos",
+    "status": "Min Stock",
+    "minStock": "1818 Nos",
+    "maxStock": "14657 Nos"
+  },
+  {
+    "id": 28,
+    "partName": "Martin-Murphy PG-4299",
+    "partNumber": "570075021941",
+    "specification": "BLACK",
+    "inStock": "4339 Nos",
+    "status": "Low Stock",
+    "minStock": "1087 Nos",
+    "maxStock": "17382 Nos"
+  },
+  {
+    "id": 29,
+    "partName": "Perez Group PG-1431",
+    "partNumber": "3535526372332413",
+    "specification": "LINE",
+    "inStock": "809 Nos",
+    "status": "In Stock",
+    "minStock": "1669 Nos",
+    "maxStock": "10892 Nos"
+  },
+  {
+    "id": 30,
+    "partName": "Price LLC PG-7709",
+    "partNumber": "341557352539529",
+    "specification": "THERE",
+    "inStock": "2063 Nos",
+    "status": "Min Stock",
+    "minStock": "787 Nos",
+    "maxStock": "7202 Nos"
+  },
+  {
+    "id": 31,
+    "partName": "Andrews, White and Jones PG-3509",
+    "partNumber": "372190965972648",
+    "specification": "PARTNER",
+    "inStock": "3502 Nos",
+    "status": "Min Stock",
+    "minStock": "541 Nos",
+    "maxStock": "10559 Nos"
+  },
+  {
+    "id": 32,
+    "partName": "Johnson, Mendoza and Glenn PG-0923",
+    "partNumber": "4895512949093714",
+    "specification": "HEART",
+    "inStock": "1629 Nos",
+    "status": "Min Stock",
+    "minStock": "1451 Nos",
+    "maxStock": "14584 Nos"
+  },
+  {
+    "id": 33,
+    "partName": "Campbell PLC PG-3928",
+    "partNumber": "3588817382274976",
+    "specification": "BASE",
+    "inStock": "605 Nos",
+    "status": "In Stock",
+    "minStock": "991 Nos",
+    "maxStock": "18670 Nos"
+  },
+  {
+    "id": 34,
+    "partName": "Sullivan-Lee PG-4508",
+    "partNumber": "180082085921476",
+    "specification": "RECEIVE",
+    "inStock": "3490 Nos",
+    "status": "Low Stock",
+    "minStock": "1334 Nos",
+    "maxStock": "18697 Nos"
+  },
+  {
+    "id": 35,
+    "partName": "Wright-Barr PG-7415",
+    "partNumber": "503860603672",
+    "specification": "CONTROL",
+    "inStock": "2765 Nos",
+    "status": "In Stock",
+    "minStock": "919 Nos",
+    "maxStock": "6219 Nos"
+  },
+  {
+    "id": 36,
+    "partName": "Jones-Jones PG-2364",
+    "partNumber": "566300147311",
+    "specification": "PULL",
+    "inStock": "736 Nos",
+    "status": "Min Stock",
+    "minStock": "559 Nos",
+    "maxStock": "13485 Nos"
+  },
+  {
+    "id": 37,
+    "partName": "Nichols Group PG-7473",
+    "partNumber": "180011238036205",
+    "specification": "WHO",
+    "inStock": "3698 Nos",
+    "status": "In Stock",
+    "minStock": "1221 Nos",
+    "maxStock": "16887 Nos"
+  },
+  {
+    "id": 38,
+    "partName": "Ferguson-Romero PG-2682",
+    "partNumber": "30519509724897",
+    "specification": "LEADER",
+    "inStock": "688 Nos",
+    "status": "Low Stock",
+    "minStock": "662 Nos",
+    "maxStock": "7603 Nos"
+  },
+  {
+    "id": 39,
+    "partName": "Cameron-Potter PG-2769",
+    "partNumber": "213149706470372",
+    "specification": "LIVE",
+    "inStock": "3143 Nos",
+    "status": "In Stock",
+    "minStock": "533 Nos",
+    "maxStock": "11565 Nos"
+  },
+  {
+    "id": 40,
+    "partName": "Bender, Young and Shaw PG-3276",
+    "partNumber": "180093591008799",
+    "specification": "QUITE",
+    "inStock": "238 Nos",
+    "status": "In Stock",
+    "minStock": "532 Nos",
+    "maxStock": "8859 Nos"
+  },
+  {
+    "id": 41,
+    "partName": "Potter LLC PG-0792",
+    "partNumber": "341547856425580",
+    "specification": "GARDEN",
+    "inStock": "4269 Nos",
+    "status": "Min Stock",
+    "minStock": "543 Nos",
+    "maxStock": "11322 Nos"
+  },
+  {
+    "id": 42,
+    "partName": "Vargas-Miranda PG-8392",
+    "partNumber": "340450243081961",
+    "specification": "CENTER",
+    "inStock": "4045 Nos",
+    "status": "In Stock",
+    "minStock": "731 Nos",
+    "maxStock": "10606 Nos"
+  },
+  {
+    "id": 43,
+    "partName": "Henderson-Robinson PG-6083",
+    "partNumber": "4884301085586498",
+    "specification": "BLACK",
+    "inStock": "3823 Nos",
+    "status": "In Stock",
+    "minStock": "856 Nos",
+    "maxStock": "7945 Nos"
+  },
+  {
+    "id": 44,
+    "partName": "Watts, Rodriguez and Shields PG-5344",
+    "partNumber": "6552511127746076",
+    "specification": "OPPORTUNITY",
+    "inStock": "1086 Nos",
+    "status": "Min Stock",
+    "minStock": "1747 Nos",
+    "maxStock": "16064 Nos"
+  },
+  {
+    "id": 45,
+    "partName": "Payne LLC PG-5452",
+    "partNumber": "4872736830769",
+    "specification": "REFLECT",
+    "inStock": "2919 Nos",
+    "status": "In Stock",
+    "minStock": "1945 Nos",
+    "maxStock": "6833 Nos"
+  },
+  {
+    "id": 46,
+    "partName": "Manning-Long PG-8823",
+    "partNumber": "3557971742348454",
+    "specification": "ITEM",
+    "inStock": "3306 Nos",
+    "status": "In Stock",
+    "minStock": "1544 Nos",
+    "maxStock": "13510 Nos"
+  },
+  {
+    "id": 47,
+    "partName": "Mitchell-Bell PG-7095",
+    "partNumber": "675987937173",
+    "specification": "SIT",
+    "inStock": "1490 Nos",
+    "status": "Low Stock",
+    "minStock": "1121 Nos",
+    "maxStock": "8271 Nos"
+  },
+  {
+    "id": 48,
+    "partName": "Jarvis-Barker PG-4072",
+    "partNumber": "4302569666596252970",
+    "specification": "AGE",
+    "inStock": "3358 Nos",
+    "status": "Low Stock",
+    "minStock": "953 Nos",
+    "maxStock": "7422 Nos"
+  },
+  {
+    "id": 49,
+    "partName": "Freeman-Molina PG-1599",
+    "partNumber": "6507300804294311",
+    "specification": "SCIENTIST",
+    "inStock": "1236 Nos",
+    "status": "Low Stock",
+    "minStock": "1383 Nos",
+    "maxStock": "18788 Nos"
+  },
+  {
+    "id": 50,
+    "partName": "Smith-Joseph PG-6721",
+    "partNumber": "3582817793949105",
+    "specification": "PLANT",
+    "inStock": "638 Nos",
+    "status": "In Stock",
+    "minStock": "520 Nos",
+    "maxStock": "17364 Nos"
+  },
+  {
+    "id": 51,
+    "partName": "Roberts Ltd PG-2603",
+    "partNumber": "375222227937692",
+    "specification": "STUFF",
+    "inStock": "2046 Nos",
+    "status": "Low Stock",
+    "minStock": "1874 Nos",
+    "maxStock": "16547 Nos"
+  },
+  {
+    "id": 52,
+    "partName": "Pacheco-Martin PG-4752",
+    "partNumber": "6512350338046151",
+    "specification": "HIM",
+    "inStock": "3188 Nos",
+    "status": "Min Stock",
+    "minStock": "1444 Nos",
+    "maxStock": "18872 Nos"
+  },
+  {
+    "id": 53,
+    "partName": "Hernandez, Nelson and Chambers PG-2122",
+    "partNumber": "345846863909537",
+    "specification": "RESULT",
+    "inStock": "4814 Nos",
+    "status": "Min Stock",
+    "minStock": "1598 Nos",
+    "maxStock": "10343 Nos"
+  },
+  {
+    "id": 54,
+    "partName": "Davenport LLC PG-6867",
+    "partNumber": "30510017588478",
+    "specification": "NEED",
+    "inStock": "3977 Nos",
+    "status": "Low Stock",
+    "minStock": "844 Nos",
+    "maxStock": "6608 Nos"
+  },
+  {
+    "id": 55,
+    "partName": "Harris-Greer PG-4388",
+    "partNumber": "2226385423690840",
+    "specification": "BECOME",
+    "inStock": "307 Nos",
+    "status": "Low Stock",
+    "minStock": "1604 Nos",
+    "maxStock": "13095 Nos"
+  },
+  {
+    "id": 56,
+    "partName": "Palmer, Noble and Jackson PG-3023",
+    "partNumber": "060481157448",
+    "specification": "SENSE",
+    "inStock": "4416 Nos",
+    "status": "Min Stock",
+    "minStock": "838 Nos",
+    "maxStock": "13711 Nos"
+  },
+  {
+    "id": 57,
+    "partName": "Woods-Parker PG-9960",
+    "partNumber": "2231547497764214",
+    "specification": "NECESSARY",
+    "inStock": "4470 Nos",
+    "status": "Min Stock",
+    "minStock": "1243 Nos",
+    "maxStock": "6854 Nos"
+  },
+  {
+    "id": 58,
+    "partName": "French-Griffin PG-6045",
+    "partNumber": "3538655574021578",
+    "specification": "LINE",
+    "inStock": "116 Nos",
+    "status": "Min Stock",
+    "minStock": "544 Nos",
+    "maxStock": "15307 Nos"
+  },
+  {
+    "id": 59,
+    "partName": "Zhang, Anderson and Collins PG-0432",
+    "partNumber": "6551987483673479",
+    "specification": "DIRECTION",
+    "inStock": "556 Nos",
+    "status": "In Stock",
+    "minStock": "1218 Nos",
+    "maxStock": "9239 Nos"
+  },
+  {
+    "id": 60,
+    "partName": "Bailey, Griffin and Wiggins PG-8850",
+    "partNumber": "2710127655025789",
+    "specification": "CELL",
+    "inStock": "637 Nos",
+    "status": "Low Stock",
+    "minStock": "1571 Nos",
+    "maxStock": "18536 Nos"
+  },
+  {
+    "id": 61,
+    "partName": "Hill, Mercado and Pierce PG-8709",
+    "partNumber": "3529726241556188",
+    "specification": "SOMEBODY",
+    "inStock": "216 Nos",
+    "status": "Min Stock",
+    "minStock": "969 Nos",
+    "maxStock": "9197 Nos"
+  },
+  {
+    "id": 62,
+    "partName": "Campbell PLC PG-6491",
+    "partNumber": "213187337969354",
+    "specification": "FIRST",
+    "inStock": "812 Nos",
+    "status": "Min Stock",
+    "minStock": "867 Nos",
+    "maxStock": "5036 Nos"
+  },
+  {
+    "id": 63,
+    "partName": "Moore, Buchanan and Winters PG-6652",
+    "partNumber": "36200539958672",
+    "specification": "LOCAL",
+    "inStock": "410 Nos",
+    "status": "In Stock",
+    "minStock": "1611 Nos",
+    "maxStock": "17925 Nos"
+  },
+  {
+    "id": 64,
+    "partName": "Powell-Frazier PG-6453",
+    "partNumber": "3535242249386182",
+    "specification": "ACROSS",
+    "inStock": "4251 Nos",
+    "status": "Min Stock",
+    "minStock": "567 Nos",
+    "maxStock": "19537 Nos"
+  },
+  {
+    "id": 65,
+    "partName": "Simpson, Lyons and Torres PG-2669",
+    "partNumber": "3506706236126368",
+    "specification": "AFFECT",
+    "inStock": "3063 Nos",
+    "status": "Min Stock",
+    "minStock": "895 Nos",
+    "maxStock": "11599 Nos"
+  },
+  {
+    "id": 66,
+    "partName": "Phillips Ltd PG-5696",
+    "partNumber": "639083804067",
+    "specification": "POLICY",
+    "inStock": "471 Nos",
+    "status": "Low Stock",
+    "minStock": "1333 Nos",
+    "maxStock": "19580 Nos"
+  },
+  {
+    "id": 67,
+    "partName": "Blevins-Terry PG-6280",
+    "partNumber": "3590114482227005",
+    "specification": "HEART",
+    "inStock": "2020 Nos",
+    "status": "Min Stock",
+    "minStock": "1614 Nos",
+    "maxStock": "16081 Nos"
+  },
+  {
+    "id": 68,
+    "partName": "Lopez, Johnson and Jackson PG-5708",
+    "partNumber": "4623186755333646453",
+    "specification": "STATION",
+    "inStock": "4387 Nos",
+    "status": "Min Stock",
+    "minStock": "1149 Nos",
+    "maxStock": "17639 Nos"
+  },
+  {
+    "id": 69,
+    "partName": "Hernandez, Moreno and Smith PG-8481",
+    "partNumber": "4644621056726914015",
+    "specification": "REMEMBER",
+    "inStock": "2934 Nos",
+    "status": "Low Stock",
+    "minStock": "831 Nos",
+    "maxStock": "18061 Nos"
+  },
+  {
+    "id": 70,
+    "partName": "Ortega-Cross PG-2100",
+    "partNumber": "4445093078239",
+    "specification": "CENTRAL",
+    "inStock": "4610 Nos",
+    "status": "In Stock",
+    "minStock": "951 Nos",
+    "maxStock": "8211 Nos"
+  },
+  {
+    "id": 71,
+    "partName": "Pena LLC PG-4006",
+    "partNumber": "3583552511213737",
+    "specification": "LEG",
+    "inStock": "4889 Nos",
+    "status": "Low Stock",
+    "minStock": "1237 Nos",
+    "maxStock": "12197 Nos"
+  },
+  {
+    "id": 72,
+    "partName": "Patterson Ltd PG-5428",
+    "partNumber": "30583963543789",
+    "specification": "CULTURAL",
+    "inStock": "1234 Nos",
+    "status": "Low Stock",
+    "minStock": "1057 Nos",
+    "maxStock": "13080 Nos"
+  },
+  {
+    "id": 73,
+    "partName": "Esparza-Chandler PG-4946",
+    "partNumber": "4999369001184",
+    "specification": "DETAIL",
+    "inStock": "3904 Nos",
+    "status": "Low Stock",
+    "minStock": "1370 Nos",
+    "maxStock": "14086 Nos"
+  },
+  {
+    "id": 74,
+    "partName": "Garcia-Cook PG-0066",
+    "partNumber": "4464581790106",
+    "specification": "PRESIDENT",
+    "inStock": "2986 Nos",
+    "status": "Low Stock",
+    "minStock": "1098 Nos",
+    "maxStock": "9992 Nos"
+  },
+  {
+    "id": 75,
+    "partName": "Burke-Vang PG-7256",
+    "partNumber": "4934030688275",
+    "specification": "TIME",
+    "inStock": "2685 Nos",
+    "status": "Min Stock",
+    "minStock": "833 Nos",
+    "maxStock": "17801 Nos"
+  },
+  {
+    "id": 76,
+    "partName": "Hampton Ltd PG-3484",
+    "partNumber": "342340226004874",
+    "specification": "GENERAL",
+    "inStock": "3465 Nos",
+    "status": "Min Stock",
+    "minStock": "1128 Nos",
+    "maxStock": "8461 Nos"
+  },
+  {
+    "id": 77,
+    "partName": "Jones-Carlson PG-1081",
+    "partNumber": "30037667705830",
+    "specification": "PERFORM",
+    "inStock": "1305 Nos",
+    "status": "In Stock",
+    "minStock": "1090 Nos",
+    "maxStock": "8535 Nos"
+  },
+  {
+    "id": 78,
+    "partName": "Pitts, Bailey and Thompson PG-4358",
+    "partNumber": "2261157683146516",
+    "specification": "ENOUGH",
+    "inStock": "1594 Nos",
+    "status": "In Stock",
+    "minStock": "1503 Nos",
+    "maxStock": "10004 Nos"
+  },
+  {
+    "id": 79,
+    "partName": "Dyer, Evans and Hanson PG-7440",
+    "partNumber": "3575609982562305",
+    "specification": "INDEED",
+    "inStock": "3309 Nos",
+    "status": "Min Stock",
+    "minStock": "1441 Nos",
+    "maxStock": "11039 Nos"
+  },
+  {
+    "id": 80,
+    "partName": "Houston Ltd PG-9129",
+    "partNumber": "6011166070833572",
+    "specification": "SOCIETY",
+    "inStock": "3555 Nos",
+    "status": "Low Stock",
+    "minStock": "1917 Nos",
+    "maxStock": "8887 Nos"
+  },
+  {
+    "id": 81,
+    "partName": "Manning Ltd PG-0424",
+    "partNumber": "371938140118235",
+    "specification": "BEAT",
+    "inStock": "181 Nos",
+    "status": "Low Stock",
+    "minStock": "1780 Nos",
+    "maxStock": "19549 Nos"
+  },
+  {
+    "id": 82,
+    "partName": "Lee, Parker and Gregory PG-1874",
+    "partNumber": "060443066885",
+    "specification": "FORWARD",
+    "inStock": "4949 Nos",
+    "status": "In Stock",
+    "minStock": "1923 Nos",
+    "maxStock": "11478 Nos"
+  },
+  {
+    "id": 83,
+    "partName": "Singleton, Benitez and Jacobs PG-5857",
+    "partNumber": "2510715022189551",
+    "specification": "GIVE",
+    "inStock": "2937 Nos",
+    "status": "Low Stock",
+    "minStock": "1360 Nos",
+    "maxStock": "15612 Nos"
+  },
+  {
+    "id": 84,
+    "partName": "Wilson, Juarez and Robinson PG-3365",
+    "partNumber": "630436328755",
+    "specification": "ALL",
+    "inStock": "3730 Nos",
+    "status": "Min Stock",
+    "minStock": "1680 Nos",
+    "maxStock": "18625 Nos"
+  },
+  {
+    "id": 85,
+    "partName": "Reed, Cooper and Stone PG-1012",
+    "partNumber": "30334280413334",
+    "specification": "WRITE",
+    "inStock": "4705 Nos",
+    "status": "Min Stock",
+    "minStock": "1215 Nos",
+    "maxStock": "8952 Nos"
+  },
+  {
+    "id": 86,
+    "partName": "Hudson, Wise and Mueller PG-6572",
+    "partNumber": "4524474956295238",
+    "specification": "RESPONSE",
+    "inStock": "3989 Nos",
+    "status": "In Stock",
+    "minStock": "1724 Nos",
+    "maxStock": "5805 Nos"
+  },
+  {
+    "id": 87,
+    "partName": "Walters-Cohen PG-8125",
+    "partNumber": "30004387778562",
+    "specification": "EAST",
+    "inStock": "4447 Nos",
+    "status": "In Stock",
+    "minStock": "1998 Nos",
+    "maxStock": "18728 Nos"
+  },
+  {
+    "id": 88,
+    "partName": "Hill PLC PG-0724",
+    "partNumber": "4146137351653",
+    "specification": "FOLLOW",
+    "inStock": "174 Nos",
+    "status": "Min Stock",
+    "minStock": "534 Nos",
+    "maxStock": "10251 Nos"
+  },
+  {
+    "id": 89,
+    "partName": "Russo, Moore and Davis PG-1877",
+    "partNumber": "4614210819608485",
+    "specification": "BEGIN",
+    "inStock": "2361 Nos",
+    "status": "Min Stock",
+    "minStock": "1001 Nos",
+    "maxStock": "10724 Nos"
+  },
+  {
+    "id": 90,
+    "partName": "Rush, Scott and Camacho PG-7891",
+    "partNumber": "213128911051912",
+    "specification": "NUMBER",
+    "inStock": "3794 Nos",
+    "status": "Low Stock",
+    "minStock": "1004 Nos",
+    "maxStock": "15819 Nos"
+  },
+  {
+    "id": 91,
+    "partName": "Hicks-Foley PG-0418",
+    "partNumber": "4955864361995537117",
+    "specification": "WEAR",
+    "inStock": "3534 Nos",
+    "status": "In Stock",
+    "minStock": "865 Nos",
+    "maxStock": "8468 Nos"
+  },
+  {
+    "id": 92,
+    "partName": "Livingston-Rogers PG-8063",
+    "partNumber": "4801189379109204",
+    "specification": "INSIDE",
+    "inStock": "2891 Nos",
+    "status": "Min Stock",
+    "minStock": "1444 Nos",
+    "maxStock": "15184 Nos"
+  },
+  {
+    "id": 93,
+    "partName": "Ellis Inc PG-5063",
+    "partNumber": "2235347178279749",
+    "specification": "HERE",
+    "inStock": "1050 Nos",
+    "status": "Min Stock",
+    "minStock": "844 Nos",
+    "maxStock": "8340 Nos"
+  },
+  {
+    "id": 94,
+    "partName": "Harrison Group PG-2846",
+    "partNumber": "4550642541342739452",
+    "specification": "ADMINISTRATION",
+    "inStock": "1126 Nos",
+    "status": "In Stock",
+    "minStock": "967 Nos",
+    "maxStock": "13502 Nos"
+  },
+  {
+    "id": 95,
+    "partName": "Gates, Page and Hanna PG-2927",
+    "partNumber": "4926461884035",
+    "specification": "UNDER",
+    "inStock": "2007 Nos",
+    "status": "In Stock",
+    "minStock": "1079 Nos",
+    "maxStock": "18630 Nos"
+  },
+  {
+    "id": 96,
+    "partName": "Henderson Ltd PG-8299",
+    "partNumber": "676316125704",
+    "specification": "WOULD",
+    "inStock": "2846 Nos",
+    "status": "In Stock",
+    "minStock": "1022 Nos",
+    "maxStock": "10648 Nos"
+  },
+  {
+    "id": 97,
+    "partName": "Rogers-Gibson PG-3200",
+    "partNumber": "5305423662342059",
+    "specification": "INSTEAD",
+    "inStock": "1651 Nos",
+    "status": "Min Stock",
+    "minStock": "1063 Nos",
+    "maxStock": "5923 Nos"
+  },
+  {
+    "id": 98,
+    "partName": "Johnson Group PG-0702",
+    "partNumber": "374487879047055",
+    "specification": "MRS",
+    "inStock": "2911 Nos",
+    "status": "In Stock",
+    "minStock": "1483 Nos",
+    "maxStock": "15992 Nos"
+  },
+  {
+    "id": 99,
+    "partName": "Collins-Long PG-8871",
+    "partNumber": "3541004368498103",
+    "specification": "PERFORMANCE",
+    "inStock": "2069 Nos",
+    "status": "In Stock",
+    "minStock": "856 Nos",
+    "maxStock": "16471 Nos"
+  },
+  {
+    "id": 100,
+    "partName": "Conner, Bender and Rivera PG-1686",
+    "partNumber": "639093040710",
+    "specification": "FUTURE",
+    "inStock": "517 Nos",
+    "status": "In Stock",
+    "minStock": "581 Nos",
+    "maxStock": "9072 Nos"
+  }
+]

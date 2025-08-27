@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "partName": "Sensor Board PG-2172",
+    "partNumber": "219386717692",
+    "specification": "CAST IRON",
+    "inStock": "1289 Nos",
+    "status": "In Stock",
+    "minStock": "299 Nos",
+    "maxStock": "3282 Nos"
+  },
+  {
+    "id": 2,
+    "partName": "Cover Unit PG-5195",
+    "partNumber": "451362511540",
+    "specification": "ALUMINUM",
+    "inStock": "760 Nos",
+    "status": "In Stock",
+    "minStock": "327 Nos",
+    "maxStock": "1209 Nos"
+  },
+  {
+    "id": 3,
+    "partName": "Switch Board PG-3739",
+    "partNumber": "634482522104",
+    "specification": "ALUMINUM",
+    "inStock": "3838 Nos",
+    "status": "In Stock",
+    "minStock": "447 Nos",
+    "maxStock": "3892 Nos"
+  },
+  {
+    "id": 4,
+    "partName": "Bracket Case PG-7749",
+    "partNumber": "808479203729",
+    "specification": "PLASTIC",
+    "inStock": "488 Nos",
+    "status": "In Stock",
+    "minStock": "105 Nos",
+    "maxStock": "1463 Nos"
+  },
+  {
+    "id": 5,
+    "partName": "Housing Board PG-6187",
+    "partNumber": "744897610681",
+    "specification": "RUBBER",
+    "inStock": "688 Nos",
+    "status": "In Stock",
+    "minStock": "250 Nos",
+    "maxStock": "942 Nos"
+  },
+  {
+    "id": 6,
+    "partName": "Module Block PG-6466",
+    "partNumber": "940253056241",
+    "specification": "ELECTRONIC",
+    "inStock": "136 Nos",
+    "status": "Low Stock",
+    "minStock": "342 Nos",
+    "maxStock": "1244 Nos"
+  },
+  {
+    "id": 7,
+    "partName": "Connector Case PG-3686",
+    "partNumber": "850380391962",
+    "specification": "STEEL",
+    "inStock": "2144 Nos",
+    "status": "In Stock",
+    "minStock": "473 Nos",
+    "maxStock": "4580 Nos"
+  },
+  {
+    "id": 8,
+    "partName": "Bracket Module PG-4037",
+    "partNumber": "326852523428",
+    "specification": "STRUCTURAL",
+    "inStock": "1245 Nos",
+    "status": "In Stock",
+    "minStock": "126 Nos",
+    "maxStock": "4229 Nos"
+  },
+  {
+    "id": 9,
+    "partName": "Bracket Panel PG-4014",
+    "partNumber": "284745403958",
+    "specification": "MECHANICAL",
+    "inStock": "1524 Nos",
+    "status": "In Stock",
+    "minStock": "468 Nos",
+    "maxStock": "4895 Nos"
+  },
+  {
+    "id": 10,
+    "partName": "Coil Panel PG-6208",
+    "partNumber": "442700277820",
+    "specification": "PRECISION",
+    "inStock": "1544 Nos",
+    "status": "In Stock",
+    "minStock": "176 Nos",
+    "maxStock": "4969 Nos"
+  },
+  {
+    "id": 11,
+    "partName": "Connector Block PG-2898",
+    "partNumber": "900557634094",
+    "specification": "FIBERGLASS",
+    "inStock": "492 Nos",
+    "status": "In Stock",
+    "minStock": "164 Nos",
+    "maxStock": "3241 Nos"
+  },
+  {
+    "id": 12,
+    "partName": "Module Case PG-6310",
+    "partNumber": "586436343977",
+    "specification": "PLASTIC",
+    "inStock": "1069 Nos",
+    "status": "In Stock",
+    "minStock": "496 Nos",
+    "maxStock": "2175 Nos"
+  },
+  {
+    "id": 13,
+    "partName": "Bracket Case PG-6223",
+    "partNumber": "782314035775",
+    "specification": "STRUCTURAL",
+    "inStock": "3320 Nos",
+    "status": "In Stock",
+    "minStock": "306 Nos",
+    "maxStock": "3496 Nos"
+  },
+  {
+    "id": 14,
+    "partName": "Board Block PG-5773",
+    "partNumber": "582686083846",
+    "specification": "PLASTIC",
+    "inStock": "1775 Nos",
+    "status": "In Stock",
+    "minStock": "256 Nos",
+    "maxStock": "3077 Nos"
+  },
+  {
+    "id": 15,
+    "partName": "Sensor Case PG-7230",
+    "partNumber": "312702149930",
+    "specification": "CAST IRON",
+    "inStock": "2664 Nos",
+    "status": "In Stock",
+    "minStock": "203 Nos",
+    "maxStock": "2717 Nos"
+  },
+  {
+    "id": 16,
+    "partName": "Cover Board PG-6588",
+    "partNumber": "539350226745",
+    "specification": "FIBERGLASS",
+    "inStock": "514 Nos",
+    "status": "In Stock",
+    "minStock": "303 Nos",
+    "maxStock": "2413 Nos"
+  },
+  {
+    "id": 17,
+    "partName": "Housing Panel PG-1692",
+    "partNumber": "751878732836",
+    "specification": "STRUCTURAL",
+    "inStock": "808 Nos",
+    "status": "In Stock",
+    "minStock": "311 Nos",
+    "maxStock": "1457 Nos"
+  },
+  {
+    "id": 18,
+    "partName": "Module Panel PG-7565",
+    "partNumber": "343754848571",
+    "specification": "PLASTIC",
+    "inStock": "85 Nos",
+    "status": "Low Stock",
+    "minStock": "171 Nos",
+    "maxStock": "4305 Nos"
+  },
+  {
+    "id": 19,
+    "partName": "Board Block PG-1698",
+    "partNumber": "971635780888",
+    "specification": "FIBERGLASS",
+    "inStock": "506 Nos",
+    "status": "In Stock",
+    "minStock": "317 Nos",
+    "maxStock": "2295 Nos"
+  },
+  {
+    "id": 20,
+    "partName": "Module Module PG-6168",
+    "partNumber": "839325320405",
+    "specification": "ALUMINUM",
+    "inStock": "41 Nos",
+    "status": "Low Stock",
+    "minStock": "409 Nos",
+    "maxStock": "3323 Nos"
+  },
+  {
+    "id": 21,
+    "partName": "Coil Module PG-2844",
+    "partNumber": "811315333341",
+    "specification": "MECHANICAL",
+    "inStock": "2244 Nos",
+    "status": "In Stock",
+    "minStock": "174 Nos",
+    "maxStock": "3904 Nos"
+  },
+  {
+    "id": 22,
+    "partName": "Bracket Block PG-6032",
+    "partNumber": "932928476667",
+    "specification": "PRECISION",
+    "inStock": "2677 Nos",
+    "status": "In Stock",
+    "minStock": "416 Nos",
+    "maxStock": "3498 Nos"
+  },
+  {
+    "id": 23,
+    "partName": "Housing Board PG-6750",
+    "partNumber": "761156160617",
+    "specification": "ELECTRONIC",
+    "inStock": "2844 Nos",
+    "status": "In Stock",
+    "minStock": "407 Nos",
+    "maxStock": "3390 Nos"
+  },
+  {
+    "id": 24,
+    "partName": "Terminal Block PG-5859",
+    "partNumber": "271535306786",
+    "specification": "HYDRAULIC",
+    "inStock": "3795 Nos",
+    "status": "In Stock",
+    "minStock": "187 Nos",
+    "maxStock": "3922 Nos"
+  },
+  {
+    "id": 25,
+    "partName": "Cover Unit PG-1447",
+    "partNumber": "588817700264",
+    "specification": "CAST IRON",
+    "inStock": "1399 Nos",
+    "status": "In Stock",
+    "minStock": "421 Nos",
+    "maxStock": "2815 Nos"
+  },
+  {
+    "id": 26,
+    "partName": "Board Board PG-1113",
+    "partNumber": "599904699414",
+    "specification": "MECHANICAL",
+    "inStock": "239 Nos",
+    "status": "In Stock",
+    "minStock": "188 Nos",
+    "maxStock": "3486 Nos"
+  },
+  {
+    "id": 27,
+    "partName": "Housing Block PG-7927",
+    "partNumber": "945356141002",
+    "specification": "PRECISION",
+    "inStock": "2464 Nos",
+    "status": "In Stock",
+    "minStock": "479 Nos",
+    "maxStock": "3692 Nos"
+  },
+  {
+    "id": 28,
+    "partName": "Connector Block PG-2543",
+    "partNumber": "382745432502",
+    "specification": "REPLACEABLE",
+    "inStock": "2707 Nos",
+    "status": "In Stock",
+    "minStock": "401 Nos",
+    "maxStock": "4901 Nos"
+  },
+  {
+    "id": 29,
+    "partName": "Connector Board PG-2037",
+    "partNumber": "613733682026",
+    "specification": "MECHANICAL",
+    "inStock": "595 Nos",
+    "status": "In Stock",
+    "minStock": "138 Nos",
+    "maxStock": "2310 Nos"
+  },
+  {
+    "id": 30,
+    "partName": "Connector Panel PG-4860",
+    "partNumber": "538773258106",
+    "specification": "STEEL",
+    "inStock": "1485 Nos",
+    "status": "In Stock",
+    "minStock": "114 Nos",
+    "maxStock": "2150 Nos"
+  },
+  {
+    "id": 31,
+    "partName": "Cover Block PG-1771",
+    "partNumber": "675081298803",
+    "specification": "PLASTIC",
+    "inStock": "173 Nos",
+    "status": "Low Stock",
+    "minStock": "448 Nos",
+    "maxStock": "1990 Nos"
+  },
+  {
+    "id": 32,
+    "partName": "Switch Case PG-9463",
+    "partNumber": "247250229522",
+    "specification": "PLASTIC",
+    "inStock": "1041 Nos",
+    "status": "In Stock",
+    "minStock": "429 Nos",
+    "maxStock": "1205 Nos"
+  },
+  {
+    "id": 33,
+    "partName": "Board Case PG-6192",
+    "partNumber": "199037334392",
+    "specification": "PLASTIC",
+    "inStock": "953 Nos",
+    "status": "In Stock",
+    "minStock": "310 Nos",
+    "maxStock": "1385 Nos"
+  },
+  {
+    "id": 34,
+    "partName": "Connector Unit PG-5503",
+    "partNumber": "867902696705",
+    "specification": "PLASTIC",
+    "inStock": "747 Nos",
+    "status": "In Stock",
+    "minStock": "257 Nos",
+    "maxStock": "3705 Nos"
+  },
+  {
+    "id": 35,
+    "partName": "Motor Unit PG-4909",
+    "partNumber": "217923213004",
+    "specification": "RUBBER",
+    "inStock": "242 Nos",
+    "status": "In Stock",
+    "minStock": "106 Nos",
+    "maxStock": "2572 Nos"
+  },
+  {
+    "id": 36,
+    "partName": "Motor Case PG-7386",
+    "partNumber": "669978003129",
+    "specification": "STEEL",
+    "inStock": "790 Nos",
+    "status": "In Stock",
+    "minStock": "415 Nos",
+    "maxStock": "2397 Nos"
+  },
+  {
+    "id": 37,
+    "partName": "Motor Board PG-1571",
+    "partNumber": "882823510115",
+    "specification": "STRUCTURAL",
+    "inStock": "2151 Nos",
+    "status": "In Stock",
+    "minStock": "451 Nos",
+    "maxStock": "3972 Nos"
+  },
+  {
+    "id": 38,
+    "partName": "Coil Unit PG-1212",
+    "partNumber": "265402573995",
+    "specification": "RUBBER",
+    "inStock": "2290 Nos",
+    "status": "In Stock",
+    "minStock": "232 Nos",
+    "maxStock": "4510 Nos"
+  },
+  {
+    "id": 39,
+    "partName": "Regulator Case PG-2408",
+    "partNumber": "181407409171",
+    "specification": "CAST IRON",
+    "inStock": "305 Nos",
+    "status": "Low Stock",
+    "minStock": "428 Nos",
+    "maxStock": "950 Nos"
+  },
+  {
+    "id": 40,
+    "partName": "Regulator Case PG-6864",
+    "partNumber": "765444587601",
+    "specification": "PRECISION",
+    "inStock": "139 Nos",
+    "status": "Low Stock",
+    "minStock": "256 Nos",
+    "maxStock": "747 Nos"
+  },
+  {
+    "id": 41,
+    "partName": "Cover Panel PG-8017",
+    "partNumber": "435141166392",
+    "specification": "PRECISION",
+    "inStock": "314 Nos",
+    "status": "In Stock",
+    "minStock": "146 Nos",
+    "maxStock": "3297 Nos"
+  },
+  {
+    "id": 42,
+    "partName": "Bracket Case PG-2655",
+    "partNumber": "760721469690",
+    "specification": "RUBBER",
+    "inStock": "1683 Nos",
+    "status": "In Stock",
+    "minStock": "106 Nos",
+    "maxStock": "2977 Nos"
+  },
+  {
+    "id": 43,
+    "partName": "Sensor Panel PG-3551",
+    "partNumber": "408821354802",
+    "specification": "ALUMINUM",
+    "inStock": "521 Nos",
+    "status": "In Stock",
+    "minStock": "458 Nos",
+    "maxStock": "1523 Nos"
+  },
+  {
+    "id": 44,
+    "partName": "Connector Board PG-1639",
+    "partNumber": "732038179143",
+    "specification": "FIBERGLASS",
+    "inStock": "2567 Nos",
+    "status": "In Stock",
+    "minStock": "393 Nos",
+    "maxStock": "4752 Nos"
+  },
+  {
+    "id": 45,
+    "partName": "Regulator Unit PG-1184",
+    "partNumber": "179222951325",
+    "specification": "STEEL",
+    "inStock": "613 Nos",
+    "status": "In Stock",
+    "minStock": "263 Nos",
+    "maxStock": "3436 Nos"
+  },
+  {
+    "id": 46,
+    "partName": "Terminal Board PG-9330",
+    "partNumber": "299948348897",
+    "specification": "HYDRAULIC",
+    "inStock": "1521 Nos",
+    "status": "In Stock",
+    "minStock": "289 Nos",
+    "maxStock": "4017 Nos"
+  },
+  {
+    "id": 47,
+    "partName": "Connector Panel PG-9784",
+    "partNumber": "584814179950",
+    "specification": "REPLACEABLE",
+    "inStock": "1659 Nos",
+    "status": "In Stock",
+    "minStock": "465 Nos",
+    "maxStock": "3224 Nos"
+  },
+  {
+    "id": 48,
+    "partName": "Motor Unit PG-4856",
+    "partNumber": "150431983622",
+    "specification": "PRECISION",
+    "inStock": "193 Nos",
+    "status": "In Stock",
+    "minStock": "191 Nos",
+    "maxStock": "2286 Nos"
+  },
+  {
+    "id": 49,
+    "partName": "Cover Module PG-5870",
+    "partNumber": "634545045733",
+    "specification": "ELECTRONIC",
+    "inStock": "1040 Nos",
+    "status": "In Stock",
+    "minStock": "221 Nos",
+    "maxStock": "3370 Nos"
+  },
+  {
+    "id": 50,
+    "partName": "Switch Board PG-6450",
+    "partNumber": "219483765394",
+    "specification": "RUBBER",
+    "inStock": "858 Nos",
+    "status": "In Stock",
+    "minStock": "270 Nos",
+    "maxStock": "961 Nos"
+  }
+]
