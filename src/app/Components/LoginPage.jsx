@@ -84,7 +84,7 @@ export default function LoginPage() {
                     {/* submit button */}
                     <button
                         type="submit"
-                        className="cursor-pointer w-[60%] bg-gradient-to-r from-emerald-600 to-green-600 text-white py-2 rounded-full hover:from-emerald-500 hover:to-green-500 transition block mx-auto shadow-lg shadow-emerald-900/30"
+                        className="cursor-pointer w-[100%] bg-[#005ACF]  text-white py-2 rounded-full hover:from-emerald-500 hover:to-green-500 transition block mx-auto shadow-lg shadow-emerald-900/30"
                     >
                         Login
                     </button>

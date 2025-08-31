@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import logo from '../../../public/logo.png';
+import logo from '../../../public/logo.jpeg';
 import { LayoutGrid, ChevronDown, ChevronUp, CircleUserRound, UsersRound, ContactRound, SlidersVertical, LogOut } from 'lucide-react';
 import Link from "next/link";
 import ListItem from "./dropDownItem";
@@ -11,8 +11,13 @@ import { useRouter } from 'next/navigation';
 import { BsBoxes } from "react-icons/bs";
 import { AiOutlineProduct } from "react-icons/ai";
 import { LiaWarehouseSolid } from "react-icons/lia";
+import { TbProgressCheck } from "react-icons/tb";
 import { LuBrush } from "react-icons/lu";
-
+import { PiUserCircle } from "react-icons/pi";
+import { PiUserSwitch } from "react-icons/pi";
+import { TbUserSquareRounded } from "react-icons/tb";
+import { HiOutlineViewGrid } from "react-icons/hi";
+import { PiSlidersBold } from "react-icons/pi";
 
 // Sidebar options config
 const SIDEBAR_OPTIONS = [
@@ -64,7 +69,7 @@ const SIDEBAR_OPTIONS = [
                 id: 5,
                 label: "Clients",
                 route: "/pages/clients",
-                icon: CircleUserRound,
+                icon: PiUserCircle,
                 roles: ["admin"],
                 departments: ["company", "all"]
             },
@@ -72,7 +77,7 @@ const SIDEBAR_OPTIONS = [
                 id: 6,
                 label: "Suppliers",
                 route: "/pages/suppliers",
-                icon: UsersRound,
+                icon: PiUserSwitch,
                 roles: ["admin", "manager", "purchase"],
                 departments: ["company", "all"]
             },
@@ -80,18 +85,27 @@ const SIDEBAR_OPTIONS = [
                 id: 7,
                 label: "Users",
                 route: "/pages/users",
-                icon: ContactRound,
+                icon: TbUserSquareRounded,
                 roles: ["admin"],
                 departments: ["company", "all"]
             },
             {
                 id: 8,
-                label: "Settings",
-                route: "/pages/settings",
-                icon: SlidersVertical,
+                label: "Workflow Templates",
+                route: "/pages/workflow-templates",
+                icon: TbProgressCheck,
                 roles: ["admin"],
                 departments: ["company", "all"]
-            }
+            },
+            {
+                id: 9,
+                label: "Settings",
+                route: "/pages/settings",
+                icon: PiSlidersBold,
+                roles: ["admin"],
+                departments: ["company", "all"]
+            },
+            
         ]
     }
 ];
@@ -148,18 +162,18 @@ const Sidebar = () => {
             <div className="ml-4 mt-[50px] flex flex-col justify-start w-full font-[500] flex-1">
                 <Link href="/">
                     <span className="inline-flex items-center text-[18px] cursor-pointer">
-                        <LayoutGrid className="" />
+                        <HiOutlineViewGrid className="" />
                         <p className="ml-4">Dashboard</p>
                     </span>
                 </Link>
                 {/* Render sidebar sections */}
                 {filteredOptions.map(section => (
-                    <div className="cursor-pointer mt-12" key={section.key}>
+                    <div className="cursor-pointer mt-4" key={section.key}>
                         <span
                             className="inline-flex justify-between w-[90%]"
                             onClick={() => handleToggle(section.key)}
                         >
-                            <p className={'text-xs text-[#959595] uppercase font-semibold '}>{section.section}</p>
+                            <p className={'text-xs text-[#959595] uppercase font-semibold'}>{section.section}</p>
                             {isOpen[section.key] ? <ChevronDown className="text-[#959595]" /> : <ChevronUp className="text-[#959595]" />}
                         </span>
                         {isOpen[section.key] && (
@@ -190,7 +204,7 @@ const Sidebar = () => {
 
             <button
                 onClick={() => { dispatch(logout()); router.push('/'); }}
-                className="w-[150px] mt-auto inline-flex items-center px-6 font-medium py-2 rounded-full bg-red-700 text-white text-sm shadow hover:bg-red-800 transition gap-2"
+                className="w-[150px] mb-6 mt-auto inline-flex items-center px-6 font-medium py-2 rounded-full bg-red-700 text-white text-sm shadow hover:bg-red-800 transition gap-2"
             >
                 <LogOut className='w-5 h-5 inline-block' />
                 <span className='text-sm inline-block'>Logout</span>

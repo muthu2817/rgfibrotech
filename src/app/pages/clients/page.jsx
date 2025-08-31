@@ -14,6 +14,8 @@ export default function Page() {
   const [isLoading, setLoading] = useState(false);
   const [refresh, setRefresh] = useState(false);
 
+
+
   // Table columns for clients
   const columns = [
     {
@@ -94,15 +96,7 @@ export default function Page() {
         title="Clients"
       />
       {isFormOpen && (
-       <Popup
-       isOpen={isFormOpen}
-       onClose={() => dispatch(setFormOpen(false))}
-       title="Create Client"
-       showCloseButton={true}
-       overlayClickToClose={true}
-     >
-       <ClientForm setRefresh={setRefresh} />
-     </Popup>
+       <ClientForm isFormOpen={isFormOpen} setRefresh={setRefresh} />
       )}
     </>
   );

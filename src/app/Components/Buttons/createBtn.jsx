@@ -32,10 +32,13 @@ const CreateBtn = ({onClick}) => {
         else if (routeName == '/pages/settings') {
             buttonLbl = 'Create Settings';
         }
+        else if (routeName == '/pages/workflow-templates') {
+            buttonLbl = 'Create Workflow';
+        }
    
     return (
         <>
-            <button onClick={onClick} className="cursor-pointer bg-blue-700 rounded-full py-3 px-3 pr-4 w-fit  text-white hover:bg-blue-800 transition-colors">
+            <button onClick={onClick} className="cursor-pointer bg-[#005ACF] rounded-full py-3 px-3 pr-4 w-fit  text-white hover:bg-blue-800 transition-colors">
                 <p className="items-center text-xs flex items-center">
                     <CirclePlus className="w-4 h-4" />
                     <span className="ml-2">{buttonLbl}</span>

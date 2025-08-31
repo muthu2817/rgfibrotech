@@ -1,24 +1,33 @@
 'use client'
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import axiosInstance from "@/app/API/axiosInterceptor";
 import UserTbl from "@/app/Components/Tables/userTable";
 import BomCreateForm from "@/app/Components/Forms/BomForm";
 import Popup from "@/app/Components/Popup";
 import { setFormOpen } from "@/app/store/slices/getPageDetailsSlice";
+import Header from "@/app/Components/Header";
+import PageHeader from "@/app/Components/PageHeader";
+import CreateBtn from "@/app/Components/Buttons/createBtn";
 // import { useDataFetch } from "@/app/Hooks/useDataFetch"; // Not needed
+import WorkflowForm from "@/app/Components/Forms/WorkflowForm";
 
 export default function Page() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [refresh, setRefresh] = useState(false);
   const isFormOpen = useSelector((state) => state.pageDetails.isFormOpen);
   const dispatch = useDispatch(); // FIX: useDispatch instead of useDataFetch
 
+
+  const HandleFormOpen = useCallback(() => {
+    dispatch(setFormOpen(!isFormOpen));
+}, [dispatch]);
+
   // Fetch BOM data
-  async function getBomData() {
+  async function getWorkflowTemplateData() {
     try {
-      const response = await axiosInstance.get("/boms", {
+      const response = await axiosInstance.get("/workflow-templates", {
         params: {
           page: 1,
           limit: 10,
@@ -35,7 +44,7 @@ export default function Page() {
   }
 
   useEffect(() => {
-    getBomData();
+    getWorkflowTemplateData();
     // eslint-disable-next-line
   }, [refresh]);
 
@@ -94,11 +103,36 @@ export default function Page() {
 
   return (
     <>
-      <UserTbl tblData={data || []} loading={isLoading} columns={columns} title="Bom's"/>
+    <Header title={'Workflow Templates'} />
+            <PageHeader leftContent={<CreateBtn onClick={()=>HandleFormOpen()}/>}>
+                  </PageHeader>
+
+      <div className="grid grid-cols-4 gap-x-4 justify-between px-6">
+        {
+          data.map((item,index)=>
+          {
+            return <div key={index} className="bg-white rounded-md border border-[#e3e3e3] overflow-hidden">
+              <div className="px-4 py-3 bg-[#f3f3f3] border-b border-b-[#e3e3e3]">
+                  <p className="text-sm text-black font-medium">{item.name}</p>
+              </div>
+              <div className="px-4 py-3">
+                <p className="text-sm font-medium text-[#959595] mb-3">Stages</p>
+                {
+                  item.stages.map((stage,i)=>
+                  {
+                    return <div key={i} className="mb-2">
+                          <p className="text-sm capitalize">Stage {stage.sequence} - {stage.stage} ({stage.estimatedDuration} Hrs)</p>
+                    </div>
+                  })
+                }
+              </div>
+            </div>
+          })
+        }
+
+      </div>
       {isFormOpen && (
-        
-          <BomCreateForm setRefresh={setRefresh} isFormOpen={isFormOpen}/>
-      
+        <WorkflowForm isFormOpen={isFormOpen}/>
       )}
     </>
   );

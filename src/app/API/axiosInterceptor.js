@@ -7,6 +7,7 @@ export const setAuthTokenGetter = (fn) => {
 };
 
 const axiosInstance = axios.create({
+  //baseURL: 'http://192.168.1.2:3030/api/v1',
   baseURL: 'https://rgf-api.infantsurya.in/api/v1',
 });
 

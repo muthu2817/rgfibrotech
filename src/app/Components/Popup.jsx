@@ -5,11 +5,16 @@ const Popup = ({
   onClose,
   children,
   variant = 'center', // 'center' or 'side'
-  size = 'xl', // 'small', 'medium', 'large', 'full'
+  size,
   title,
   showCloseButton = true,
   overlayClickToClose = true,
   className = '',
+  onCancel,      // <-- Add onCancel prop
+  onSubmit,      // <-- Add onSubmit prop
+  submitButtonText = '', // <-- Add configurable submit button text
+  cancelButtonText = '',
+  formName='',
   ...props
 }) => {
   // Handle escape key press
@@ -51,9 +56,9 @@ const Popup = ({
       center: 'max-w-4xl max-h-[60rem]',
       side: 'w-[40rem]'
     },
-   
+
     full: {
-      center: 'max-w-7xl max-h-[90vh]',
+      center: 'max-w-6xl h-[40rem] max-h-[100vh]',
       side: 'w-full'
     }
   };
@@ -72,25 +77,25 @@ const Popup = ({
   };
 
   const handleClose = () => {
-    onClose();  
+    onClose();
   };
 
   return (
-    <div 
+    <div
       className={`${config.container} ${className}`}
       onClick={handleOverlayClick}
       {...props}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50" />
-      
+
       {/* Popup Content */}
       <div className={`relative z-10 ${config.popup} ${config.animation}`}>
         {/* Header */}
         {(title || showCloseButton) && (
-          <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-gray-50 rounded-t-lg">
+          <div className="flex items-center justify-between px-6 py-3 border-b border-gray-200 bg-gray-50 rounded-t-lg">
             {title && (
-              <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
+              <h2 className="text-base font-medium text-gray-900">{title}</h2>
             )}
             {showCloseButton && (
               <button
@@ -116,9 +121,48 @@ const Popup = ({
           </div>
         )}
         {/* Content */}
-        <div className="p-4 overflow-y-auto">
+        <div className="px-6 py-8 overflow-y-auto">
           {children}
         </div>
+        {
+          formName=='ProductForm' ? 
+          <div className="flex justify-end gap-4 px-6 py-6">
+            <button 
+              onClick={onCancel}
+              type="button"
+              className="cursor-pointer bg-gray-100 text-gray-700 rounded-full text-sm px-6 py-2 hover:bg-gray-200"
+            >
+              {cancelButtonText}
+            </button>
+            <button
+              onClick={onSubmit}
+              type="button"
+              className="cursor-pointer bg-blue-600 text-white text-sm rounded-full px-6 py-2 hover:bg-blue-800"
+            >
+              {submitButtonText}
+            </button>
+          </div>
+          :
+          
+          <div className="flex justify-end gap-4 px-6 py-6  ">
+          <button form={formName}
+            onClick={onCancel}
+            type="button"
+            className="cursor-pointer bg-gray-100 text-gray-700 rounded-full text-sm px-6 py-2 hover:bg-gray-200"
+          >
+            {cancelButtonText}
+          </button>
+          <button
+            onClick={onSubmit}
+            type="submit"
+            form={formName}
+            className="cursor-pointer bg-blue-600 text-white text-sm rounded-full px-6 py-2 hover:bg-blue-800"
+          >
+            {submitButtonText}
+          </button>
+        </div>
+        }
+        
       </div>
     </div>
   );

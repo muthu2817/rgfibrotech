@@ -6,8 +6,9 @@ import InputField from './FormComponents/Input';
 import axiosInstance from '@/app/API/axiosInterceptor';
 import Dropdown from './FormComponents/DropDown';
 import StatusMessage from '../StatusMsg';
+import Popup from '../Popup';
 
-const BomCreateForm = ({ setRefresh }) => {
+const BomCreateForm = ({ setRefresh, isFormOpen }) => {
   const dispatch = useDispatch();
   const [Departments, setDepartments] = useState([]);
   const [unitType, setUnitType] = useState([]);
@@ -126,11 +127,27 @@ const BomCreateForm = ({ setRefresh }) => {
 
   return (
     <>
+
+<Popup
+       isOpen={isFormOpen}
+       onClose={() => dispatch(setFormOpen(false))}
+       title="Create Client"
+       showCloseButton={true}
+       overlayClickToClose={true}
+       formName="addBomForm"
+       size='xl'
+       onCancel={() => dispatch(setFormOpen(false))}
+       onSubmit={()=>{}}
+       cancelButtonText={'Cancel'}
+       submitButtonText="Create"
+     >
       <form
-        id="MainFormComponent"
+        id="addBomForm"
         className="bg-white rounded-2xl p-10 px-4 sm:px-8 md:px-10 w-full space-y-4 overflow-x-hidden"
         onSubmit={handleSubmit}
         style={{ maxWidth: '100%', overflowX: 'hidden' }}
+        name='addBomForm'
+
       >
         {/* Input Grid */}
         <div className="text-[14px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 space-y-6">
@@ -180,23 +197,6 @@ const BomCreateForm = ({ setRefresh }) => {
             })}
           </div>
         </div>
-
-        {/* Footer */}
-        <div className="flex justify-end gap-4 pt-4 ">
-          <button
-            onClick={() => closeForm()}
-            type="button"
-            className="cursor-pointer bg-gray-100 text-gray-700 rounded-full px-6 py-2 hover:bg-gray-200"
-          >
-            Cancel
-          </button>
-          <button
-            type="submit"
-            className="cursor-pointer bg-blue-600 text-white rounded-full px-6 py-2 hover:bg-blue-800"
-          >
-            Create
-          </button>
-        </div>
       </form>
 
       {/* ✅ Show Status Toast */}
@@ -207,6 +207,8 @@ const BomCreateForm = ({ setRefresh }) => {
           onClose={() => setStatusMsg(null)}
         />
       )}
+
+      </Popup>
     </>
   );
 };

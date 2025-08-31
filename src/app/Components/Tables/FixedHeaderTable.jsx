@@ -6,6 +6,7 @@ import {
   getCoreRowModel,
   flexRender,
   getFilteredRowModel,
+  getPaginationRowModel,
 } from '@tanstack/react-table';
 import Loader from '../Loader';
 /**
@@ -22,7 +23,11 @@ const FixedHeaderTable = ({
   emptyMessage = 'No records found',
   headerCellClassName = '',
   headerTextClassName = 'text-sm font-medium tracking-tight text-[#757575]',
-  globalFilter
+  globalFilter,
+  // pagination (controlled from parent)
+  pageIndex = 0,
+  pageSize = 10,
+  onPaginationChange = () => {}
 }) => {
   const memoData = useMemo(() => data || [], [data]);
   const memoColumns = useMemo(() => columns || [], [columns]);
@@ -30,10 +35,12 @@ const FixedHeaderTable = ({
   const table = useReactTable({
     data: memoData,
     columns: memoColumns,
-    state: { globalFilter }, // Add globalFilter to state
-    onGlobalFilterChange: () => {}, // No-op since we're controlling from outside
+    state: { globalFilter, pagination: { pageIndex, pageSize } },
+    onGlobalFilterChange: () => {},
+    onPaginationChange,
     getFilteredRowModel: getFilteredRowModel(),
     getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
   });
 
   // useEffect(()=>{

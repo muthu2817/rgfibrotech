@@ -2,11 +2,7 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-/**
- * Pagination
- * - Controlled pagination UI matching existing styles
- * - Pass the current page index (0-based), total page count, and handlers
- */
+
 const Pagination = ({
   pageIndex = 0,
   pageCount = 0,

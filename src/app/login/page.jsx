@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import logo from '../../../public/logo.png';
+import logo from '../../../public/logo.jpeg';
 import { Eye } from 'lucide-react';
 import { EyeOff } from 'lucide-react';
 import { login, fetchUserInfo } from "../store/slices/authSlice";
@@ -48,19 +48,19 @@ export default function LoginPage() {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-[#f6f6f6]">
-            <div className="p-8 rounded-2xl  bg-white  w-[400px] border-grey-200 border-1">
-                <div>
-                    <Image src={logo} alt="dummy logo" className="w-[200px] m-auto" />
+        <div className="min-h-screen flex items-center justify-center bg-[#e3e3e3]">
+            <div className="px-8 py-12 rounded-2xl  bg-white  w-[400px] border border-[#e3e3e3]">
+                <div className="mb-12">
+                    <Image src={logo} alt="dummy logo" className="w-[140px] m-auto" />
                 </div>
 
-                <form onSubmit={handleLogin} className="flex flex-col justify-between h-[300px] pt-10">
+                <form name="loginForm" onSubmit={handleLogin} className="flex flex-col justify-between h-[300px] pt-10">
 
-                    <div className="space-y-6 mx-auto">
+                    <div className="space-y-6">
                     {/* Email Input */}
                     <div>
-                        <label className="block text-stone-900 mb-1">Email</label>
-                        <input
+                        <label>Email</label>
+                        <input form="loginForm"
                             type="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
@@ -72,8 +72,8 @@ export default function LoginPage() {
 
                     {/* Password Input */}
                     <div className="relative">
-                        <label className="block text-stone-900 mb-1">Password</label>
-                        <input
+                        <label>Password</label>
+                        <input form="loginForm"
                             type={showPassword ? "text" : "password"}
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
@@ -81,6 +81,7 @@ export default function LoginPage() {
                             className="w-[290px] border border-white/20 px-4 py-2 rounded-md bg-white/5 text-stone-800 placeholder-stone-800 focus:outline-none focus:ring-2 focus:ring-emerald-500/60"
                         />
                         <button
+                        form="loginForm"
                             type="button"
                             onClick={() => setShowPassword((prev) => !prev)}
                             className="cursor-pointer absolute right-2 top-10 text-sm text-emerald-300 hover:text-emerald-200 focus:outline-none"
@@ -93,7 +94,7 @@ export default function LoginPage() {
                     {/* submit button */}
                     <button
                         type="submit"
-                        className="cursor-pointer w-[60%] bg-gradient-to-r from-emerald-600 to-green-600 text-white py-2 rounded-full hover:from-emerald-500 hover:to-green-500 transition block mx-auto shadow-lg shadow-emerald-900/30"
+                        className="cursor-pointer w-full bg-[#005ACF] mt-8 text-white py-3 rounded-md  transition block mx-auto "
                     >
                         Login
                     </button>

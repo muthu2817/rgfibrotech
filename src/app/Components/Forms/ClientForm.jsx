@@ -6,7 +6,8 @@ import StatusMessage from '../StatusMsg';
 import Dropdown from './FormComponents/DropDown';
 import { setFormOpen } from '@/app/store/slices/getPageDetailsSlice';
 import { useDispatch } from 'react-redux';
-const ClientForm = ({ setRefresh }) => {
+import Popup from '../Popup';
+const ClientForm = ({ setRefresh,isFormOpen }) => {
   const [formData, setFormData] = useState({
     clientName: '',
     type: '',
@@ -36,9 +37,9 @@ const ClientForm = ({ setRefresh }) => {
 
   // drop down options for status
   const statusOptions = [
-    { id: 'Pending', name: 'Pending' },
+    { id: 'pending', name: 'Pending' },
     { id: 'active', name: 'Active' },
-    { id: 'Inactive', name: 'Inactive' },
+    { id: 'iactive', name: 'Inactive' },
   ];
 
   const handleSubmit = async (e) => {
@@ -79,15 +80,28 @@ const ClientForm = ({ setRefresh }) => {
   };
 
   return (
-    <>
+    <Popup
+       isOpen={isFormOpen}
+       onClose={() => dispatch(setFormOpen(false))}
+       title="Create Client"
+       showCloseButton={true}
+       overlayClickToClose={true}
+       formName="addClientForm"
+       size='medium'
+       onCancel={() => dispatch(setFormOpen(false))}
+       onSubmit={()=>{}}
+       cancelButtonText={'Cancel'}
+       submitButtonText="Create"
+     >
       <form
-        id="MainFormComponent"
-        className="relative bg-white  p-10 w-full space-y-4 "
+        id="addClientForm"
+        name='addClientForm'
+        className="relative bg-white  w-full grid grid-cols-2 gap-y-6 gap-x-4"
         onSubmit={handleSubmit}
       >
-        <div className="text-[14px] grid grid-cols-2 gap-5 space-y-6">
           {InputFieldConfig.map((FieldData, id) => (
             <InputField
+            required={true}
               key={id}
               placeholder={FieldData.Placeholder}
               ItemName={FieldData.label === 'clientName' ? 'Client Name' :
@@ -96,9 +110,7 @@ const ClientForm = ({ setRefresh }) => {
               onChange={(e) => handleInputChange(FieldData.label, e.target.value)}
             />
           ))}
-        </div>
 
-        <div className="text-[14px] grid grid-cols-2 gap-5 space-y-6">
           <div>
             <label className="block font-medium text-gray-500 mb-1">Contact Email</label>
             <input
@@ -106,44 +118,35 @@ const ClientForm = ({ setRefresh }) => {
               placeholder="Enter Email ID"
               value={formData.contactInfo.email}
               onChange={(e) => handleContactInfoChange('email', e.target.value)}
-              className="w-full border border-gray-200 px-3 py-2 rounded-md focus:outline-blue-400"
+              // className="w-full border border-gray-200 px-3 py-2 rounded-md focus:outline-blue-400"
             />
-          </div>
-          <div>
+            </div>
+            <div>
             <label className="block font-medium text-gray-500 mb-1">Contact Phone</label>
             <input
               type="tel"
               placeholder="Enter Phone Number"
               value={formData.contactInfo.phone}
               onChange={(e) => handleContactInfoChange('phone', e.target.value)}
-              className="w-full border border-gray-200 px-3 py-2 rounded-md focus:outline-blue-400"
+              // className="w-full border border-gray-200 px-3 py-2 rounded-md focus:outline-blue-400"
             />
           </div>
-        </div>
-        <div style={{ maxWidth: 160 }}>
-          <Dropdown
-            label="Status"
-            options={statusOptions}
+        <div>
+          <label className="block font-medium text-gray-500 mb-1">Status</label>
+          <select
+            // className="w-full border border-gray-200 px-3 py-2 rounded-md focus:outline-blue-400"
             value={formData.status}
             onChange={(e) => handleInputChange('status', e.target.value)}
-          />
+          >
+            {statusOptions.map((option,index) => (
+              <option key={index} value={option.id}>
+                {option.name}
+              </option>
+            ))}
+          </select>
         </div>
 
-        <div className="flex justify-end gap-4 pt-4">
-          <button
-            type="button"
-            className="cursor-pointer bg-gray-100 text-gray-700 rounded-full px-6 py-2 hover:bg-gray-300"
-            onClick={()=>closeForm()}
-          >
-            Cancel
-          </button>
-          <button
-            type="submit"
-            className="cursor-pointer bg-blue-600 text-white rounded-full px-6 py-2 hover:bg-blue-800"
-          >
-            Create
-          </button>
-        </div>
+        {/* Action buttons removed - handled by popup */}
       </form>
       {statusMsg && (
         <StatusMessage
@@ -152,7 +155,7 @@ const ClientForm = ({ setRefresh }) => {
           onClose={() => setStatusMsg(null)}
         />
       )}
-    </>
+    </Popup>
   );
 };
 
